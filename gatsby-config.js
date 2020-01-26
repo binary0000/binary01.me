@@ -1,6 +1,8 @@
 module.exports = {
+  assetPrefix: 'http://binary01.me',
   siteMetadata: {
-    title: `Pandas Eating Lots`,
+    title: `진수의 블로그ㅎㅎ`,
+    author: `binary`
   },
   plugins: [
     {
