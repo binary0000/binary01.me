@@ -1,5 +1,4 @@
 module.exports = {
-  assetPrefix: 'http://binary01.me',
   siteMetadata: {
     title: `진수의 블로그ㅎㅎ`,
     author: `binary`
