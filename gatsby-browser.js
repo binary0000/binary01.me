@@ -1,8 +1,4 @@
-/*
-just know that gatsby-browser.js is one of a handful of special files that Gatsby looks for and uses (if they exist). Here, the naming of the file is important. 
-*/
+'use strict';
 
-import "./src/styles/global.css"
-
-// or:
-// require('./src/styles/global.css')
+require('./src/assets/scss/init.scss');
+require('./static/css/prismjs/theme.min.css');
