@@ -20,7 +20,7 @@ module.exports = {
       path: '/pages/about'
     },
     {
-      label: 'Contact me',
+      label: 'My Projects',
       path: '/pages/contacts'
     }
   ],
@@ -30,13 +30,13 @@ module.exports = {
     bio: 'jinsoo blog test.',
     contacts: {
       email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
+      facebook: '',
+      telegram: '',
+      twitter: '',
       github: '#',
       rss: '',
       vkontakte: '',
-      linkedin: '#',
+      linkedin: '',
       instagram: '#',
       line: '',
       gitlab: '',
