@@ -4,7 +4,7 @@ module.exports = {
   url: 'binary01.me',
   pathPrefix: '/',
   title: 'Blog by Jinsoo Lee',
-  subtitle: 'jinsoo blog test.',
+  subtitle: 'subtitle',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -27,9 +27,9 @@ module.exports = {
   author: {
     name: 'Jinsoo Lee',
     photo: '/myfavicon.png',
-    bio: 'jinsoo blog test.',
+    bio: 'Email : admin@binary01.me',
     contacts: {
-      email: 'binary01@kakao.com',
+      email: 'admin@bianry01.me',
       facebook: '',
       telegram: '',
       twitter: '',
