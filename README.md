@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Lumen" title="Lumen" src="https://github.com/dgujs/binary01.me/myfavicon.png" width="140"> </br>
+    <img alt="Lumen" title="Lumen" src="https://github.com/dgujs/binary01.me/blob/master/myfavicon.png" width="140"> </br>
     binary01.me Using Lumen
 </h1>
 
