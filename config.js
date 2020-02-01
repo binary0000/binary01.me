@@ -27,7 +27,7 @@ module.exports = {
   author: {
     name: 'Jinsoo Lee',
     photo: '/myfavicon.png',
-    bio: 'Email : admin@binary01.me',
+    bio: 'admin@binary01.me',
     contacts: {
       email: 'admin@bianry01.me',
       facebook: '',
