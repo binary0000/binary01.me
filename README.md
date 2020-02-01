@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="binary01" title="binary01" href="https://github.com/dgujs/binary01.me/" src="https://github.com/dgujs/binary01.me/blob/master/myfavicon.png" width="140"> </br>
+    <a target="_blank" href="https://github.com/dgujs/binary01.me/" ><img alt="binary01" title="binary01" src="https://github.com/dgujs/binary01.me/blob/master/myfavicon.png" width="140"> </br></a>
     binary01.me Using Lumen
 </h1>
 
