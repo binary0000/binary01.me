@@ -17,15 +17,21 @@ template: "page"
 ###___C___, ___C++___,  ___Java___, ___Python___, ___MySQL___, ___PostgreSQL___, ___Oracle___, ___JavaScript___, ___NodeJS___, ___Graphql___, ___Apollo___
 ---
 ##Education<br/>
-###2014.03 ~ 2020.02 &nbsp&nbsp동국대학교 컴퓨터공학과 
+###2014. 03 ~ 2020. 02 &nbsp&nbsp동국대학교 컴퓨터공학과 
 ---
 ##Work Experiences<br/>
-###2019.08 ~ 2019.11 &nbsp&nbsp&nbsp&nbsp델리(Dely) / Back-End 개발자<br/>
-###2019.07 ~ 2019.08 &nbsp&nbsp&nbsp크로니아이티 / InternShip<br/>
+###2019. 08 ~ 2019. 11 &nbsp&nbsp&nbsp&nbsp델리(Dely) / Back-End 개발자<br/>
+###2019. 07 ~ 2019. 08 &nbsp&nbsp&nbsp크로니아이티 / InternShip<br/>
 ---
 ##Papers<br/>
-aasdasd
+###1. &nbspLoRaWAN 기반 블록체인 차량정보 관리 체계의 설계 및 구현 [Link](http://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ff3fa5ed2256b1546aae8a972f9116fb)
+
+###2. 전자제어 기반 잠금장치 시스템의 설계 및 구현 [Link](http://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=fa8c22c6df2c09d94884a65323211ff0)
+
+<!--금고(o), lora1(한국정보)(o),lora2(국제),lora3(scopus),종설(1(국내),2(국제))  -->
 ##Projects<br/>
+
+
 ![Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.](/media/image-2.jpg)
 
 
