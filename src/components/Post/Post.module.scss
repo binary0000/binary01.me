@@ -2,6 +2,10 @@
 @import '../../assets/scss/mixins';
 
 .post {
+  &__inner {
+    padding: 25px 20px;
+  }
+
   &__footer {
     max-width: $layout-post-width;
     margin: 0 auto;
@@ -39,14 +43,27 @@
 
 }
 
+@include breakpoint-sm {
+  .post {
+    lost-column: 7/12;
+
+    &__inner {
+      padding: 30px 20px;
+    }
+
+  }
+
+}
 @include breakpoint-md {
   .post {
+    lost-column: 2/3;
+
     &__footer {
-      padding: 0;
+      padding: 40px 35px;
     }
 
     &__comments {
-      padding: 0;
+      padding: 40px 35px;
     }
 
     &__home-button {
@@ -54,7 +71,8 @@
       max-width: auto;
       margin: 0;
       top: 30px;
-      left: 30px
+      left: 30px;
+      padding: 40px 35px;
     }
 
   }
