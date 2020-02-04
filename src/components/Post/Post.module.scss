@@ -43,6 +43,7 @@
 
 }
 
+//breakpoint-sm 이거 지우면 화면 줄어들때 글깨짐
 @include breakpoint-sm {
   .post {
     lost-column: 7/12;
@@ -50,10 +51,9 @@
     &__inner {
       padding: 30px 20px;
     }
-
   }
-
 }
+
 @include breakpoint-md {
   .post {
     lost-column: 2/3;
