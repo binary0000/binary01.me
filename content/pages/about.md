@@ -11,7 +11,7 @@ template: "page"
 <a href="https://instagram.com/jinsoo8457">instagram.com/jinsoo8457</a><br/>
 <!-- 🍆🚀 -->
 
-##안녕하세요 다양한 분야에 관심이 있어 스스로 지속적으로 발전하는 개발자 이진수입니다!
+##안녕하세요 다양한 분야에 관심이 있어<br/> 스스로 지속적으로 발전하는 개발자 이진수입니다!
 ---
 ##Available Things<br/>
 ###___C___, ___C++___,  ___Java___, ___Python___, ___MySQL___, ___PostgreSQL___, ___Oracle___, ___JavaScript___, ___NodeJS___, ___Graphql___, ___Apollo___

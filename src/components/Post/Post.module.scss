@@ -49,6 +49,7 @@
     lost-column: 7/12;
 
     &__inner {
+      margin-right: 150px;
       padding: 30px 20px;
     }
   }
@@ -56,7 +57,7 @@
 
 @include breakpoint-md {
   .post {
-    lost-column: 2/3;
+    lost-column: 4/5;
 
     &__footer {
       padding: 40px 35px;
