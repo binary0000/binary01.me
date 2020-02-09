@@ -44,6 +44,8 @@ template: "page"
 - #### 고유 번호 - 106039132 &nbsp&nbsp[Link](http://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=fa8c22c6df2c09d94884a65323211ff0)
 
 <!--금고(o), lora1(한국정보)(o),lora2(국제),lora3(scopus),종설(1(국내),2(국제))  -->
+
+---
 ## Projects<br/>
 
 - #### 블록체인을 활용한 중고거래 이력관리 시스템 구성, 개발언어 : Hyperledger Fabric, NodeJS
