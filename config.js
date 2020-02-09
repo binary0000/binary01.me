@@ -16,8 +16,8 @@ module.exports = {
       path: '/'
     },
     {
-      label: 'category_test',
-      path: '/category/design-inspiration'
+      label: 'GraphQL',
+      path: '/category/graph-ql'
     },
     {
       label: 'About me',
@@ -27,7 +27,7 @@ module.exports = {
   author: {
     name: 'Jinsoo Lee',
     photo: '/myfavicon.png',
-    bio: 'bio_temp',
+    bio: 'Default',
     contacts: {
       email: 'admin@bianry01.me',
       facebook: '',
