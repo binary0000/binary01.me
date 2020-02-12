@@ -8,7 +8,6 @@ category: "AWS"
 tags:
   - "AWS"
 description: "AWS"
-# socialImage: "/media/GraphQL_Logo.svg"
 ---
 
 <br/><br/><img src="/media/apn_picture_1.png" width="400px"><br/>
