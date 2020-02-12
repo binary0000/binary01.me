@@ -20,6 +20,10 @@ module.exports = {
       path: '/category/graph-ql'
     },
     {
+      label: 'AWS',
+      path: '/category/aws'
+    },
+    {
       label: 'About me',
       path: '/pages/about'
     }
