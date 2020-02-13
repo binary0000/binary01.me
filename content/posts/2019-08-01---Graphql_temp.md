@@ -7,7 +7,7 @@ slug: "What-is-GraphQL"
 category: "GraphQL"
 tags:
   - "GraphQL"
-description: "GraphQL은 RestAPI의 대체제로 성격으로 2015년 Facebook에서 발표한 통신 API이다..."
+description: "GraphQL은 RestAPI의 대체제 성격으로 2015년 Facebook에서 발표한 통신 API이다..."
 socialImage: "/media/GraphQL_Logo.svg"
 ---
 

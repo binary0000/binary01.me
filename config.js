@@ -16,13 +16,14 @@ module.exports = {
       path: '/'
     },
     {
-      label: 'GraphQL',
-      path: '/category/graph-ql'
-    },
-    {
       label: 'AWS',
       path: '/category/aws'
     },
+    {
+      label: 'GraphQL',
+      path: '/category/graph-ql'
+    },
+
     {
       label: 'About me',
       path: '/pages/about'
