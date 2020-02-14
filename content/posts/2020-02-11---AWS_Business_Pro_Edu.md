@@ -69,3 +69,39 @@ AWS에서 클라우드 컴퓨팅이란 **원할 때 언제든지 IT 리소스를
 	- 비즈니스 운영의 속도 및 대응력을 향상 -> 비즈니스 성과를 높임
 	- 운영 간소화 및 효율 향상 -> 비용 절감
 	- 실험용 플랫폼 제공 -> 조직이 혁신을 제고 가능
+
+### 클라우드 Models<br/>
+<br/><img src="/media/cloud_models.png" width="600px"><br/>
+
+### On-premise vs Cloud
+* #### On-premise<br/>
+	* Software 등 Solution 을 원격 환경이 아닌 자체적으로 보유한 **전산실 서버에 직접 설치해 운영**하는 방식을 말한다.
+
+* #### Private Cloud<br/>
+	* 가상화 및 리소스 관리 도구를 사용하여 On-premise에 Resource를 배포하는 것은 Cloud가 제공하는 많은 이점들 중 여러 점들을 사용할 수 없지만, 전용  Resource를 제공한다는 이점 때문에 선호되는 경우가 있다.<br/>
+	Ex) 레거지 IT 인프라에 가상화 및 애플리케이션 관리 같은 신기술을 적용하여 Cloud 환경을 모방할 수 있다.
+
+* #### Public Cloud<br/>
+	* Public Cloud는 인터넷을 통해 일반인에게 Resource를 제공한다.<br/>
+	클라우드 기반 **APP가 전적으로 Cloud에 배포되고 APP의 모든 부분이 클라우드에서 실행**된다.
+
+* #### Hybrid Cloud<br/>
+	* Cloud 기반의 Resource와 On-premise Resource 간에 연결한다.<br/>
+	이를 이용해 Cloud Resource를 내부 시스템과 연결하는 동시에 자체 인프라를 확장한다.
+
+* #### 일반적인 Cloud Workload
+	* 고객 대면 웹 APP, 사용자 지정 비즈니스 APP, 빅데이터 및 고성능 컴퓨팅, 백업 및 재해 복구
+
+### 클라우드 컴퓨팅 서비스 모델<br/>
+<br/><img src="/media/cloud_computing_models.png" width="600px"><br/>
+
+* #### IaaS(infrastructure as a service)
+	* 클라우드 IT를 위한 필수 인프라를 포함하는 모델<br/>
+	EX) 네트워킹 기능, 하드웨어, 데이터 스토리지 공간 등 기존 IT 리소스와 유사
+* #### PaaS(Platform as a service)
+	* 기본 인프라 이외에 운영체제가 포함됨, 소프트웨어 유지 관리에 신경을 쓸 필요가 없다.
+* #### SaaS(software as a service)
+	* 고객은 서비스 공급자가 전체 상품을 운영 및 관리하는 전체 스택을 사용할 수 있다.
+
+
+
