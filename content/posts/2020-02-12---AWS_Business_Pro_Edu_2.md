@@ -14,7 +14,9 @@ description: "AWS의 서비스는 Lambda, EC2, ELB(Elastic Load Balancing), RDS,
 <br/><br/><img src="/media/aws_map.png" width="900px">
 <p style="font-size:1.5em; font-weight: bold; text-align: center;">AWS MAP</p>
 
-<br/>위에 보이는 Map은 AWS 서비스들을 연결해놓은 것이다. (2018년 기준)
+<br/>위에 보이는 Map은 AWS 서비스들을 연결해놓은 것이다. (2018년 기준) 확대를 해봐도 잘 보이지 않는다. 서비스들은 더 늘어나 현재는 약 170개이며 앞으로도 더 늘어날 것이다. AWS와 관련된 일을 하지않는 다면 이러한 서비스들을 모두 알 필요는 없다.
+아래에는 중요하다고 생각하는 서비스 몇 개를 간단하게 기술하였다.
+
 ### AWS Services
 * AWS Lambda : Serverless Computing
 * Amazon EC2(On-premise) : 물리적 또는 가상 서버가 제공하는 기능을 의미한다.
