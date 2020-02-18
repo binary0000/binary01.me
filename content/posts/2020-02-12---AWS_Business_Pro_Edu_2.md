@@ -29,3 +29,15 @@ description: "AWS의 서비스는 Lambda, EC2, ELB(Elastic Load Balancing), RDS,
 * Aurora
 * DynamoDB(No SQL)
 * ElastiCache
+
+보안, 자격 증명 및 규정 준수 서비스 : AWS Identity and Access Management : IAM
+: 고객이 사용자를 위해 AWS 서비스 및 리소스에 대한 액세스를 안전하게 제어할 수 있게 해줍니다. 권한 부여 등
+
+모듈 2 : 
+APN의 목표와 이점: 글로벌 AWS 파트너 지원 네트워크에 참여, AWS를 사용하여 성공적인 비즈니스와 솔루션을 구축 및 유지, 비즈니스, 기술, 마케팅 및 시장 진입 지원을 획득
+
+APN의 두가지 파트너 유형 : 컨설팅 파트너와 기술 파트너
+	- 컨설팅 파트너 : 고객이 AWS를 기반으로 워크로드 및 APP을 디자인, 설계, 구축
+	마이그레이션 및 관리할 수 있도록 돕는 전문 서비스 회사
+
+기술파트너 : AWS 제품 및 서비스에서 호스팅되거나 그와 통합되는 소프트웨어 솔루션을 제공합니다. AWS를 기반으로 하는 애플리케이션을 구축하고 재판매
