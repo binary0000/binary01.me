@@ -203,5 +203,11 @@ module.exports = {
         trackingId: 'UA-158786877-1',
       },
     },
+    {
+      resolve: 'gatsby-plugin-disqus',
+      options: {
+        shortname: 'binary01'
+      }
+    },
   ]
 };
