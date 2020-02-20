@@ -33,6 +33,7 @@ const Post = ({ post }: Props) => {
       </div>
 
       <div className={styles['post__comments']}>
+        {/* <Comments postSlug={slug} postTitle={post.frontmatter.title} /> */}
         <Disqus config={disqusConfig} />
       </div>
     </div>

@@ -32,8 +32,18 @@ AWS와 관련된 일을 하지 않는다면 이러한 서비스들을 **모두 �
   * **EIP**(클라우드 IP 고정 할당), Amazon EBS 볼륨을 사용해 **영구 스토리지 볼륨에 데이터 저장** 등 여러 기능이 있다.
   * **AMI**(Amazon Machine Image)로 OS 등 여러 소프트웨어를 쉽게 구성할 수 있다.
 
-* **Amazon S3**
-  * 블라블라
+* **Amazon S3(Simple Storage Service)**
+  * S3는 간단하게 **파일 서버의 역할을 하는 서비스**라고 생각할 수 있으며 또한 **웹 서버로써 활용**이 가능하다.<br/>
+  * image 파일 등을 DB에 BLOB Type으로 저장할 수 있다. 하지만 이러한 방식으로 저장하는 것은 효율적이지 않으며, 실 서비스에서 이러한 방식을 사용하는 것은 아직까지 보지 못하였다. 이것이 파일 서버를 사용하는 이유이다.
+  * **특징**
+      * **버킷(Bucket)** : S3에서 생성할 수 있는 최상위 디렉토리의 개념이며, 버킷의 이름은 유니크해야 한다.
+      버킷에 여러 개의 객체들이 담기며, 버킷에 담을 수 있는 객체의 수는 무제한이다.
+      * 인증과정을 통해 파일에 무단으로 Access 하지 못하도록 설정할 수 있다.
+      * 버전 관리 등을 통해 복원이 가능하다.
+  * **잡지식**
+      * Naver Cloud PlatForm의 Object Storage 또한 S3의 SDK를 사용한다.
+      * S3와 CloudFront를 사용하여 스트리밍 서비스를 만들 수 있다.
+
 
 * **Elastic Load Balancing**
   * 하나의 서버에 굉장히 많은 양을 트래픽이 수신된다면, 그 서버는 버티지 못하고 문제가 생긴다.
@@ -47,12 +57,16 @@ AWS와 관련된 일을 하지 않는다면 이러한 서비스들을 **모두 �
 
 * **Database Service**
   * **RDS**
-  * **Aurora**
-  * **DynamoDB(No SQL)**
+      * EC2와 마찬가지로 인스턴스 유형을 쉽게 스케일링 가능하며, 종류로는 Aurora, MySQL, PostgreSQL, Maria, Oracle 등이 있다.
+  * **DynamoDB(NoSQL)**
+      * DynamoDB는 Serverless로 Serverless 웹 앱, Micro Service 등에 최적화되어 있다. 그 외로 NoSQL의 특징을 가지고 있다.
   * **ElastiCache**
-
-보안, 자격 증명 및 규정 준수 서비스 : AWS Identity and Access Management : IAM
-: 고객이 사용자를 위해 AWS 서비스 및 리소스에 대한 액세스를 안전하게 제어할 수 있게 해줍니다. 권한 부여 등
+      * **ElastiCache는 Redis 또는 Memcached와 호환되는 In-Memory Data Store**이다.<br/>
+      여기서 Store라는 용어는 데이터베이스, 캐시, 메시지 브로커 및 대기열 포함한다.<br/>
+      In-Memory 아주 간단하게 설명하자면 Data가 HDD or SSD에 적재되어 있지 않고, **Memory에 올라가 있어 속도가 빠르다는 장점**이 있다.
+<!--여까지 목욜 -->
+* **AWS Identity and Access Management(IAM)**
+  * 고객이 사용자를 위해 AWS 서비스 및 리소스에 대한 액세스를 안전하게 제어할 수 있게 해준다. ex) 권한 부여 등
 
 ---
 
