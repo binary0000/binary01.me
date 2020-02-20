@@ -8,6 +8,8 @@ category: "AWS"
 tags:
   - "AWS"
   - "Business"
+  - "APN"
+  - "Cloud"
 description: "AWS의 교육과정은 AWS, APN(AWS Partner Network) AWS Service 등에 관한 기본 이해를 제공한다. 그로 인해 AWS 솔루션을 효과적으로 활용할 수 있도록 하는 것이 목표이다..."
 ---
 
@@ -61,14 +63,14 @@ AWS에서 클라우드 컴퓨팅이란 **원할 때 언제든지 IT 리소스를
 
 이는 집에서 스위치를 눌러 불을 키는 것과 유사하다. (전력회사에서 집에 전기를 보급하여 수요를 충족)
 
-또한 AWS에서 인프라를 유지보수하기 때문에 고객은 보안성, 복원성이 더 뛰어난 솔루션을 더 빠르게 구축가능하다.
+또한 AWS에서 인프라를 유지보수하기 때문에 고객은 보안성, 복원성이 더 뛰어난 솔루션을 더 빠르게 구축 가능하다.
 
 ### 클라우드 컴퓨팅이 기업에 미치는 영향은 뭘까?<br/><br/>
 * **왜 고객이 클라우드로 이전할까?**
 	- 자본 또는 운영 비용 절감
 	- 비즈니스 운영의 속도 및 대응력을 향상 -> 비즈니스 성과를 높임
 	- 운영 간소화 및 효율 향상 -> 비용 절감
-	- 실험용 플랫폼 제공 -> 조직이 혁신을 제고 가능
+	- 실험용 플랫폼 제공 -> 조직이 혁신 제고 가능
 
 ### 클라우드 Models<br/>
 <br/><img src="/media/cloud_models.png" width="600px"><br/>
@@ -95,12 +97,12 @@ AWS에서 클라우드 컴퓨팅이란 **원할 때 언제든지 IT 리소스를
 ### 클라우드 컴퓨팅 서비스 모델<br/>
 <br/><img src="/media/cloud_computing_models.png" width="600px"><br/>
 
-* #### IaaS(infrastructure as a service)
+* #### IaaS(Infrastructure as a Service)
 	* 클라우드 IT를 위한 필수 인프라를 포함하는 모델<br/>
 	EX) 네트워킹 기능, 하드웨어, 데이터 스토리지 공간 등 기존 IT 리소스와 유사
-* #### PaaS(Platform as a service)
+* #### PaaS(Platform as a Service)
 	* 기본 인프라 이외에 운영체제가 포함됨, 소프트웨어 유지 관리에 신경을 쓸 필요가 없다.
-* #### SaaS(software as a service)
+* #### SaaS(Software as a Service)
 	* 고객은 서비스 공급자가 전체 상품을 운영 및 관리하는 전체 스택을 사용할 수 있다.
 
 
