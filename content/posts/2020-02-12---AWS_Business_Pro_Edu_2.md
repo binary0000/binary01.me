@@ -63,14 +63,14 @@ AWS와 관련된 일을 하지 않는다면 이러한 서비스들을 **모두 �
   * **ElastiCache**
       * **ElastiCache는 Redis 또는 Memcached와 호환되는 In-Memory Data Store**이다.<br/>
       여기서 Store라는 용어는 데이터베이스, 캐시, 메시지 브로커 및 대기열 포함한다.<br/>
-      In-Memory 아주 간단하게 설명하자면 Data가 HDD or SSD에 적재되어 있지 않고, **Memory에 올라가 있어 속도가 빠르다는 장점**이 있다.
+      In-Memory 아주 간단하게 설명하자면 Data가 HDD or SSD에 적재되어 있지 않고, Memory에 올라가 있어 속도가 빠르다는 장점이 있다.
 <!--여까지 목욜 -->
 * **AWS Identity and Access Management(IAM)**
   * 고객이 사용자를 위해 AWS 서비스 및 리소스에 대한 액세스를 안전하게 제어할 수 있게 해준다. ex) 권한 부여 등
 
 ---
 
-모듈 2 : 
+Module 2 : AWS 파트너 커뮤니티
 APN의 목표와 이점: 글로벌 AWS 파트너 지원 네트워크에 참여, AWS를 사용하여 성공적인 비즈니스와 솔루션을 구축 및 유지, 비즈니스, 기술, 마케팅 및 시장 진입 지원을 획득
 
 APN의 두가지 파트너 유형 : 컨설팅 파트너와 기술 파트너
