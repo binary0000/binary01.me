@@ -6,7 +6,6 @@ module.exports = {
   title: 'Blog by Jinsoo Lee',
   subtitle: 'subtitle',
   copyright: '© All rights reserved.',
-  disqusShortname: '',
   postsPerPage: 4,
   googleAnalyticsId: 'UA-158786877-1',
   useKatex: false,
