@@ -6,7 +6,7 @@
   "scripts": {
     "develop": "yarn run clean && gatsby develop",
     "build": "yarn run clean && gatsby build",
-    "deploy": "yarn run clean && gatsby build --prefix-paths && pm2 serve --spa --name binary01.me public/ 80",
+    "deploy": "yarn run clean && gatsby build && pm2 serve --spa --name binary01.me public/ 80",
     "clean": "rimraf .cache public",
     "flow": "flow",
     "lint:js": "eslint --cache --ext .js,.jsx .",
