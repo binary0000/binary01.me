@@ -1,14 +1,14 @@
 'use strict';
 
 module.exports = {
-  url: 'binary01.me',
+  url: 'http://binary01.me',
   pathPrefix: '/',
   title: 'Blog by Jinsoo Lee',
   subtitle: 'subtitle',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: 'UA-158786877-1',
   useKatex: false,
   menu: [
     {

@@ -16,7 +16,7 @@
     "test:coverage": "jest --coverage --config ./jest/jest-config.js",
     "test:watch": "jest --watch --config ./jest/jest-config.js"
   },
-  "repository": "https://github.com/alxshelepenok/gatsby-starter-lumen",
+  "repository": "https://github.com/dgujs/binary01.me",
   "author": "Lee Jin Soo <admin@binary01.me>",
   "license": "MIT",
   "keywords": [
@@ -53,7 +53,7 @@
     "gatsby-plugin-react-helmet": "^3.1.21",
     "gatsby-plugin-sass": "^2.1.27",
     "gatsby-plugin-sharp": "^2.4.0",
-    "gatsby-plugin-sitemap": "^2.2.26",
+    "gatsby-plugin-sitemap": "^2.2.27",
     "gatsby-remark-autolink-headers": "^2.1.23",
     "gatsby-remark-copy-linked-files": "^2.1.36",
     "gatsby-remark-external-links": "0.0.4",
