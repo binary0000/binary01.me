@@ -13,7 +13,7 @@ tags:
 description: "AWS의 교육과정은 AWS, APN(AWS Partner Network) AWS Service 등에 관한 기본 이해를 제공한다. 그로 인해 AWS 솔루션을 효과적으로 활용할 수 있도록 하는 것이 목표이다..."
 ---
 
-<br/><br/><img src="/media/apn_picture_1.png" width="400px"><br/>
+<br/><br/><img src="/categoryImage/AWS/apn_picture_1.png" width="400px"><br/>
 
 교육과정은 AWS, APN(AWS Partner Network) AWS Service 등에 관한 기본 이해를 제공한다.<br/>
 
@@ -47,8 +47,8 @@ Module 0은 소개, Module 6은 전반적인 요약, Module 7은 간단한 Exam�
 ---
 **Module 0 : 소개**<br/><br/>
 회사는 해외로 회사의 서비스를 제공할 필요를 느낀다.<br/>
-하지만 동시에 그에 필요한 인프라 비용을 절감해야한다.<br/><br/>
-이는 Client들이 클라우드를 통해 APP를 배포하거나, 기존 인프라에서 APP를 Migration 할 수 있는 클라우드 기반 아키텍쳐를 통해 해결 가능하다.<br/>
+하지만 동시에 그에 필요한 인프라 비용을 절감해야 한다.<br/><br/>
+이는 Client들이 클라우드를 통해 APP를 배포하거나, 기존 인프라에서 APP를 Migration 할 수 있는 클라우드 기반 아키텍처를 통해 해결할 수 있다.<br/>
 이것이 **AWS가 제공하는 Main 기능**이라고 할 수 있다.
 
 ---
@@ -56,7 +56,7 @@ Module 0은 소개, Module 6은 전반적인 요약, Module 7은 간단한 Exam�
 **Module 1 : AWS 가치**<br/><br/>
 APN(AWS Partner Network)는 파트너가 AWS를 사용하여 글로벌 Service를 제공할 수 있게 도와주는 Program이다.<br/>
 
-<br/><img src="/media/aws_cloud.png" width="600px"><br/>
+<br/><img src="/categoryImage/AWS/aws_cloud.png" width="600px"><br/>
 
 ### 클라우드 컴퓨팅이란 정확히 무엇일까?<br/><br/>
 AWS에서 클라우드 컴퓨팅이란 **원할 때 언제든지 IT 리소스를 인터넷을 통해 사용하고 그에 대한 비용을 지불하는 서비스**이다.
@@ -73,7 +73,7 @@ AWS에서 클라우드 컴퓨팅이란 **원할 때 언제든지 IT 리소스를
 	- 실험용 플랫폼 제공 -> 조직이 혁신 제고 가능
 
 ### 클라우드 Models<br/>
-<br/><img src="/media/cloud_models.png" width="600px"><br/>
+<br/><img src="/categoryImage/AWS/cloud_models.png" width="600px"><br/>
 
 ### On-premise vs Cloud
 * #### On-premise<br/>
@@ -95,7 +95,7 @@ AWS에서 클라우드 컴퓨팅이란 **원할 때 언제든지 IT 리소스를
 	* 고객 대면 웹 APP, 사용자 지정 비즈니스 APP, 빅데이터 및 고성능 컴퓨팅, 백업 및 재해 복구
 
 ### 클라우드 컴퓨팅 서비스 모델<br/>
-<br/><img src="/media/cloud_computing_models.png" width="600px"><br/>
+<br/><img src="/categoryImage/AWS/cloud_computing_models.png" width="600px"><br/>
 
 * #### IaaS(Infrastructure as a Service)
 	* 클라우드 IT를 위한 필수 인프라를 포함하는 모델<br/>

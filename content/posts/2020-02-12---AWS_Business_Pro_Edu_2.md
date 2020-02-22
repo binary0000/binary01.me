@@ -12,7 +12,7 @@ tags:
 description: "AWS의 서비스는 Lambda, EC2, ELB(Elastic Load Balancing), RDS, S3 등이 있으며 그 개수는 약 170개이다..."
 ---
 
-<br/><br/><img src="/media/aws_map.png" width="900px">
+<br/><br/><img src="/categoryImage/AWS/aws_map.png" width="900px">
 <p style="font-size:1.5em; font-weight: bold; text-align: center;">AWS MAP</p>
 
 위에 보이는 Map은 AWS 서비스들을 연결해놓은 것이다(2018년 기준).<br/>
@@ -23,7 +23,7 @@ AWS와 관련된 일을 하지 않는다면 이러한 서비스들을 **모두 �
 ### AWS Services<br/><br/>
 
 * **AWS Lambda : Serverless Computing**
-  * **FaaS (Function as a Service)**로써 서비스를 제공하며 API들을 여러 개의 Function으로 나누어 각 Function들의 호출 횟수만큼 비용을 지불한다.<br/>
+  * **FaaS (Function as a Service)**로써 서비스를 제공하며 API들을 여러 개의 Function으로 나누어 각 Function의 호출 횟수만큼 비용을 지불한다.<br/>
   이 부분에 대한 자세한 설명은 나중에 공부하여 추가로 포스팅하겠다!
 
 * **Amazon EC2**
@@ -79,7 +79,7 @@ AWS와 관련된 일을 하지 않는다면 이러한 서비스들을 **모두 �
       * 기술파트너 : AWS 제품 및 서비스에서 호스팅되거나 그와 통합되는 소프트웨어 솔루션을 제공한다. AWS를 기반으로 하는 애플리케이션을 구축하고 재판매한다.
 
   * APN 성과 티어
-      <img src="/media/apn_teer.png" width="800px">
+      <img src="/categoryImage/AWS/apn_teer.png" width="800px">
 
       컨설팅 파트너는 4개의 성과 티어, 기술 파트너는 3개의 성과 티어가 있다.<br/>
       기업의 AWS 전문 지식 수준이 높아짐에 따라 APN 티어를 업그레이드하여 추가적인 혜택을 누릴 수 있다.

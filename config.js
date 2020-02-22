@@ -22,7 +22,10 @@ module.exports = {
       label: 'GraphQL',
       path: '/category/graph-ql'
     },
-
+    {
+      label: 'WEB',
+      path: '/category/web'
+    },
     {
       label: 'About me',
       path: '/pages/about'
