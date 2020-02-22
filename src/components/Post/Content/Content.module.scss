@@ -3,7 +3,7 @@
 
 .content {
   max-width: $layout-post-single-width;
-  // padding: 0 150px 0 0;
+  padding : 0 1.2rem;
 
   &__title {
     font-size: $typographic-base-font-size * 2;
@@ -46,7 +46,8 @@
     & * {
       max-width: $layout-post-width;
       margin-left: auto;
-      margin-right: auto
+      margin-right: auto;
+      // padding : 0 1.5rem;
     }
 
     & img {
