@@ -43,7 +43,9 @@
     ├── pages
     └── posts
 └── static
-    ├── admin
+    ├── categoryImage
+    └── css
+    └── icons
     └── media
 └── src
     ├── assets
@@ -60,7 +62,6 @@
     │   ├── Pagination
     │   ├── Post
     │   │   ├── Author
-    │   │   ├── Comments
     │   │   ├── Content
     │   │   ├── Meta
     │   │   └── Tags
