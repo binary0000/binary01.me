@@ -14,7 +14,7 @@ template: "page"
 ## 안녕하세요 다양한 분야에 관심이 있어<br/> 스스로 지속적으로 발전하는 개발자 이진수입니다!
 ---
 ## Available Things<br/>
-### ___C___, ___C++___,  ___Java___, ___Python___, ___MySQL___, ___PostgreSQL___, ___Oracle___, ___JavaScript___, ___NodeJS___, ___Graphql___, ___Apollo___, ___AWS___
+### ___C___, ___C++___,  ___Java___, ___Python___, ___MySQL___, ___PostgreSQL___, ___Oracle___, ___JavaScript___, ___NodeJS___, ___GraphQL___, ___Apollo___, ___AWS___
 ---
 ## Education<br/>
 ### 2014. 03 ~ 2020. 02 &nbsp&nbsp동국대학교 컴퓨터공학과 
