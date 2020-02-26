@@ -19,12 +19,12 @@ module.exports = {
       path: '/category/aws'
     },
     {
-      label: 'GraphQL',
-      path: '/category/graph-ql'
-    },
-    {
       label: 'WEB',
       path: '/category/web'
+    },
+    {
+      label: 'GraphQL',
+      path: '/category/graph-ql'
     },
     {
       label: 'About me',
