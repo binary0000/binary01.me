@@ -11,7 +11,7 @@ module.exports = {
   useKatex: false,
   menu: [
     {
-      label: 'ALL (5)',
+      label: 'ALL (6)',
       path: '/'
     },
     {
@@ -23,7 +23,7 @@ module.exports = {
       path: '/category/web'
     },
     {
-      label: 'GraphQL (1)',
+      label: 'GraphQL (2)',
       path: '/category/graph-ql'
     },
     {
