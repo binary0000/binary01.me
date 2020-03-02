@@ -9,6 +9,7 @@ tags:
   - "AWS"
   - "APN"
   - "OBAM"
+  - "Business"
 description: "AWS Business Professional Module 3에서는 클라우드 도입에서 파트너 역할, 클라우드 도입 여정 정의, 고객 이의를 처리하는 방법 등을 설명한다..."
 ---
 
@@ -111,3 +112,34 @@ AWS는 자주 **요금을 인하**한다. 또한 고객의 요구 사항이 변�
 
 Module 4는 AWS Service를 중점적으로 설명한다.<br/>
 나중에 AWS Service를 한 번 더 자세히 설명할 예정이기 때문에 Module 4는 생략하겠다.
+
+---
+
+Module 5에서는 크게 비즈니스 가치를 설명, 브랜드 홍보 방법 식별, 비즈니스 수요 촉진 방법을 식별, AWS와 함께 회사를 성장시키는 방법 설명을 한다.
+<br/>
+<br/>
+
+**Module 5 : 시장 진입 전략**
+  * 목표
+      * 비즈니스 가치를 설명
+      * 브랜드 홍보 방법 식별
+      * 비즈니스 수요 촉진 방법을 식별
+      * AWS와 함께 회사를 성장시키는 방법 설명
+
+* **파트너의 차별화 방법**
+	- AWS 고객에게 제공하는 솔루션에서 검증된 탁월성, 경험, 전문성을 나타낼 수 있는 능력
+	- AWS 웹 사이트 페이지 개설
+	- 마케팅에 APN 파트너 배지 표시
+	- 솔루션 동영상 녹화
+	- 교육자료 개발
+
+* **APN 마케팅 도구**
+	- APN Marketing Central 
+	    - All-in-One 도구로서 AWS 기반 솔루션에 대한 디지털 마케팅 개발을 지원한다.
+	- AWS 스폰서쉽
+	- APN 방법 안내서
+
+* **APN 파트너 교육 경로**
+	- Business Professional
+	- Technical Professional
+	- Professional Services
