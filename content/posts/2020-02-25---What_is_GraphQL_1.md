@@ -58,12 +58,12 @@ HTTP만 잘 따라도 위 제약 조건을 대체로 만족할 수 있기 때문
 ### 그렇다면 질문!
 <br/>
 
-Q) 만일 저 제약조건 중 **하나라도 지키지 못하면** REST API가 아닌가?<br/><br/>
-A) REST API를 정의한 Roy Fielding은 제약조건을 **모두 지키지 못하면 REST API가 아니다**라고 했다.<br/>
-예로 2016년 MS에서는 REST API와 관련된 가이드를 발표하고 대부분의 개발자가 이를 납득하고 따랐지만, Roy Fielding은 이조차 REST API가 아니다라고 했다.<br/>
+**Q)** 만일 제약조건 중 **하나라도 지키지 못하면** REST API가 아닌가?<br/><br/>
+**A)** REST API를 정의한 Roy Fielding은 제약조건을 **모두 지키지 못하면 REST API가 아니다**라고 했다.<br/>
+예로 2016년 MS에서는 REST API와 관련된 가이드를 발표하고 대부분의 개발자가 이를 납득하고 따랐지만, Roy Fielding은 이조차 REST API가 아니다 라고 했다.<br/>
 
-Q) 그렇다면 마지막 질문으로 우리가 만드는 **원격 API는 반드시 REST API여야 하는가?**<br/><br/>
-A) 아니다!
+**Q)** 그렇다면 마지막 질문으로 우리가 만드는 **원격 API는 반드시 REST API여야 하는가?**<br/><br/>
+**A)** 아니다!
 > "If you think you have control over the system or aren't interested in evolvability, don't waste your time arguing about REST." - Roy Fielding
 
 ---
@@ -163,6 +163,6 @@ REST API 규칙을 지킨다! -> REST API 서비스를 사용한다!
 ### 마무리
 
 <br/>
-글 제목은 Graphql이란?? 인데 어쩌다 보니 REST API 관련 내용만 작성했다.<br/>
-하지만 REST API의 대체재로 나온 Graphql을 제대로 알기 위해선 REST API를 알아야 된다! 라고 생각해서 글을 쓰다 보니 이렇게 길어졌다..<br/>
-다음 글은 REST API의 단점을 간략히 설명하고 진짜로 Graphql에 대해서 포스팅할 예정이다 ㅎㅎ 🖐🖐🖐
+글 제목은 GraphQL이란?? 인데 어쩌다 보니 REST API 관련 내용만 작성했다.<br/>
+하지만 REST API의 대체재로 나온 GraphQL을 제대로 알기 위해선 REST API를 알아야 된다! 라고 생각해서 글을 쓰다 보니 이렇게 길어졌다..<br/>
+다음 글은 REST API의 단점을 간략히 설명하고 진짜로 GraphQL에 대해서 포스팅할 예정이다 ㅎㅎ 🖐🖐🖐
