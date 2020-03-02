@@ -36,6 +36,7 @@ const Layout = ({
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={metaImageUrl} />
         <meta name="google-site-verification" content="CyDWPc0fC2ZfuEHUOMD3kOr6Nzfhx5kKutQPio47bjQ" />
+        <meta name="naver-site-verification" content="844572e18c17cf3506d5b507fc501a1cdc568bfd"/>
         {/* google search engine register */}
       </Helmet>
       {children}
