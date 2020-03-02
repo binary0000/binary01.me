@@ -12,7 +12,8 @@ const NotFoundTemplate = () => {
     <Layout title={`Not Found - ${title}`} description={subtitle}>
       <Sidebar />
       <Page title="NOT FOUND">
-        <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+        <p>잘못된 경로에 들어오셨군요 쿠쿸..</p>
+        <img src="/media/404_not_found.png" width="1000px"/>
       </Page>
     </Layout>
   );
