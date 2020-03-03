@@ -9,7 +9,7 @@ tags:
   - "GraphQL"
   - "RESTAPI"
 description: "이번 포스팅에서는 REST API의 단점에 간략히 알아보고 본격적으로 GraphQL에 대해서 설명할 것이다!"
-socialImage: "/categoryImage/GraphQL/GraphQL_Logo.svg"
+socialImage: ""
 ---
 
 
