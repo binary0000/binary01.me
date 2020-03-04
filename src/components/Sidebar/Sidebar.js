@@ -6,6 +6,7 @@ import Copyright from './Copyright';
 import Menu from './Menu';
 import styles from './Sidebar.module.scss';
 import { useSiteMetadata } from '../../hooks';
+import { useCategoriesList } from '../../hooks';
 
 type Props = {
   isIndex?: boolean,
@@ -13,12 +14,13 @@ type Props = {
 
 const Sidebar = ({ isIndex }: Props) => {
   const { author, copyright, menu } = useSiteMetadata();
+  const categories = useCategoriesList();
 
   return (
     <div className={styles['sidebar']}>
       <div className={styles['sidebar__inner']}>
         <Author author={author} isIndex={isIndex} />
-        <Menu menu={menu} />
+        <Menu menu={menu} categories={categories} />
         <Contacts contacts={author.contacts} />
         <Copyright copyright={copyright} />
       </div>

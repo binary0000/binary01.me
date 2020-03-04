@@ -11,19 +11,19 @@ module.exports = {
   useKatex: false,
   menu: [
     {
-      label: 'ALL (6)',
+      label: 'ALL',
       path: '/'
     },
     {
-      label: 'AWS (3)',
+      label: 'AWS',
       path: '/category/aws'
     },
     {
-      label: 'WEB (1)',
+      label: 'WEB',
       path: '/category/web'
     },
     {
-      label: 'GraphQL (2)',
+      label: 'GraphQL',
       path: '/category/graph-ql'
     },
     {
