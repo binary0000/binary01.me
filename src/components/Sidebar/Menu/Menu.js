@@ -16,19 +16,19 @@ type Props = {
 };
 
 const menuCountMatch = (menu, categories) => {
+
+  let idx;
   let all = 0;
 
-  for (const item of menu) {
-    for (const field of categories) {
-      if (item.label === field.fieldValue) {
-        item.count = field.totalCount;
-        all += item.count;
-      }
-    }
+  for (const category of categories) {
+    idx = menu.findIndex((item) => item.label === category.fieldValue);
+    menu[idx].count = category.totalCount;
+
+    all += category.totalCount;
   }
 
-  const isALL = (element) => element.label === 'ALL';
-  menu[menu.findIndex(isALL)].count = all;
+  menu[menu.findIndex((item) => item.label === 'ALL')].count = all;
+
 };
 
 const Menu = ({ menu, categories }: Props) => {
