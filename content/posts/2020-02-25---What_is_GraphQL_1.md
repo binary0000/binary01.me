@@ -9,10 +9,6 @@ tags:
   - "GraphQL"
   - "RESTAPI"
   - "API"
-  - "GET"
-  - "DELETE"
-  - "PUT"
-  - "POST"
 description: "GraphQL은 REST API의 대체재 성격으로 2015년 Facebook에서 발표한 통신 API이다..."
 socialImage: "/categoryImage/GraphQL/GraphQL_Logo.svg"
 ---
