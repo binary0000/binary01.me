@@ -22,7 +22,7 @@ const menuCountMatch = (menu, categories) => {
 
   for (const category of categories) {
     idx = menu.findIndex((item) => item.label === category.fieldValue);
-    menu[idx].count = category.totalCount;
+    if (idx > -1) menu[idx].count = category.totalCount;
 
     all += category.totalCount;
   }
