@@ -1,8 +1,8 @@
 module.exports = {
   name: 'binary01.me',
-  script: 'npx',
+  script: 'http-server',
   interpreter: 'none',
-  args: 'serve public/ -p 80',
+  args: 'public/ -p 80',
   instances : 'max',
   exec_mode : 'cluster'
 };
