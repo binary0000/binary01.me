@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: 'http://binary01.me',
+  url: 'https://binary01.me',
   pathPrefix: '/',
   title: 'Blog by Jinsoo Lee',
   subtitle: 'subtitle',
