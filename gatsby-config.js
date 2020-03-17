@@ -196,7 +196,6 @@ module.exports = {
     },
     'gatsby-plugin-flow',
     'gatsby-plugin-optimize-svgs',
-    `gatsby-plugin-client-side-redirect`,
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
