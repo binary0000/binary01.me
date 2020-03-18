@@ -55,52 +55,52 @@ template: "page"
 
 ### 2019
 - #### OneM2M 기반 드론을 활용한 스마트 치안 시스템
-    -  **Project Period : 2019-09-16~2019-12-11**
+    -  **Project Period : 2019-09-16 ~ 2019-12-11**
     - **Used Things : OneM2M, JavaScript**
 
 - #### Semantic Segmentation을 이용한 교내 시설 혼잡도 안내 서비스
-    -  **Project Period : 2019-10-21~2019-11-26**
+    -  **Project Period : 2019-10-21 ~ 2019-11-26**
     -  **Used Things : JavaScript, OneM2M, Tensorflow.js**
 
 - #### 카카오 아레나 브런치 사용자를 위한 글 추천 대회
-    -  **Project Period : 2019-07-06~2019-07-23**
+    -  **Project Period : 2019-07-06 ~ 2019-07-23**
     -  **Used Things : Python, Jupyter Notebook**
   
 - #### LoRa Network 기반 블록체인 차량 정보 관리 체계
-    -  **Project Period : 2019-04-06~2019-05-20**
+    -  **Project Period : 2019-04-06 ~ 2019-05-20**
     -  **Used Things : Raspberry Pi, LoRa**
   
 - #### 블록체인을 활용한 중고거래 이력관리 시스템 구성
-    -  **Project Period : 2019-03-20~2019-05-12**
+    -  **Project Period : 2019-03-20 ~ 2019-05-12**
     -  **Used Things : JavaScript, Docker, Hyperledger Fabric**
 
 - #### 오픈소스 기반의 챗봇 성능 비교분석 연구
-    -  **Project Period : 2019-01-09~2019-01-25**
+    -  **Project Period : 2019-01-09 ~ 2019-01-25**
     -  **Used Things : JavaScript, Dialogflow, QnA Maker**
 
 ### 2018
 - #### 인공지능 음성인식을 통한 편의점 상품정보 알림 시스템
-    -  **Project Period : 2018-09-03~2018-12-21**
+    -  **Project Period : 2018-09-03 ~ 2018-12-21**
     -  **Used Things : JavaScript, MySQL**
 
 - #### 웨어러블 디바이스를 활용한 실시간 소방관 위험 감지 시스템
-    -  **Project Period : 2018-11-26~2018-12-21**
+    -  **Project Period : 2018-11-26 ~ 2018-12-21**
     -  **Used Things : Arduino Uno, Android**
 
 - #### 강의실 대관 및 강의실 정보열람 시스템
-    -  **Project Period : 2018-11-26~2018-12-21**
+    -  **Project Period : 2018-11-26 ~ 2018-12-21**
     -  **Used Things : JavaScript, MySQL**
 
 - #### OpenGL를 이용한 게임 제작, 개발언어 : C++
-    -  **Project Period : 2018-11-14~2018-12-21**
+    -  **Project Period : 2018-11-14 ~ 2018-12-21**
     -  **Used Things : C++, OpenGL**
 
 - #### 전자제어 기반 잠금장치 시스템의 설계 및 구현
-    -  **Project Period : 2018-10-18~2018-11-05**
+    -  **Project Period : 2018-10-18 ~ 2018-11-05**
     -  **Used Things : Arduino Uno, JavaScript, MongoDB**
 
 - #### 크롤링을 이용한 포털사이트 검색순위 종합시스템
-    -  **Project Period : 2018-06-05~2018-06-19**
+    -  **Project Period : 2018-06-05 ~ 2018-06-19**
     -  **Used Things : Java, Swing**
 
 
