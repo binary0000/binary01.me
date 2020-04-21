@@ -18,7 +18,7 @@ description: "이번 포스팅은 Module 4 : AWS 아키텍처를 짧게 정리�
 
 ---
 
-* **Module 4**
+* **Module 4 : AWS 아키텍처**
 	* AWS 클라우드에서의 구축 및 운영의 기본 특성 설명
 	* 기본 AWS 클라우드 아키텍처 원칙 설명
 	* AWS 클라우드 가치 제안 이해
