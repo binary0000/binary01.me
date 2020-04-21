@@ -9,12 +9,12 @@ tags:
   - "AWS"
   - "Cloud_Practitioner"
   - "Certificate"
-description: "저번 포스팅을 이어 오늘은 Module 2를 정리한다!"
+description: "저번 포스팅에 이어 오늘은 Module 2를 정리한다!"
 ---
 
 <br/>
 
-저번 포스팅을 이어 오늘은 Module 2를 정리한다!
+저번 포스팅에 이어 오늘은 Module 2를 정리한다!
 
 ---
 
