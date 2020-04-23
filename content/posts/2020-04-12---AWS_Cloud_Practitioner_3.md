@@ -54,7 +54,7 @@ AWS의 ELB 서비스에는 총 3가지 유형이 있다. (CLB, ALB, NLB)<br/>
 
 <br/>
 
-Auto Scaling을 통해 APP의 로드를 처리할 수 있는 적절한 수의 EC2 인스턴스를 유지할 수 있다.<br/>
+Auto Scaling을 통해 APP의 로드를 처리할 수 있는 **적절한 수의 EC2 인스턴스를 유지**할 수 있다.<br/>
 
 EC2에서 APP를 실행할 때 Amazon CloudWatch를 사용하여 워크로드 성능을 모니터링하는 것이 중요하다.<br/>
 
@@ -63,7 +63,7 @@ CloudWatch가 인스턴스의 수를 추가, 제거하는 것은 아니다. Auto
 <br/>
 
 * Auto Scaling의 구성요소
-	* 시작 구성 : Auto Scaling에 의해 시작될 항목을 정의하는 것 ex) AMI, 유형 보안 그룹 등
+	* 시작 구성 : Auto Scaling에 의해 시작될 항목을 정의하는 것 Ex) AMI, 유형 보안 그룹 등
 	* Auto Scaling 그룹 : 배포가 이루어지는 위치와 배포의 일부 경계를 정의하는 것, 이 단계에서 VPC를 정의
 	* Auto Scaling 정책 : EC2 인스턴스를 시작하거나 종료할 시기를 지정하는 방법
 
@@ -84,7 +84,8 @@ EC2 인스턴스 또는 로드 밸런서의 성능 정보를 기반으로 CloudW
 ### Amazon Route 53
 
 <br/><img src="/categoryImage/AWS/route53.png" width="600px"><br/>
-DNS(Domain Name Server)이며, 사용자가 도메인 이름을 IP로 변환하도록 요청하는 서비스이다.<br/>
+
+**DNS**(Domain Name Server)이며, 사용자가 도메인 이름을 IP로 변환하도록 요청하는 서비스이다.<br/>
 <br/>
 
 * 기능
@@ -107,7 +108,7 @@ Amazon **VPC 서비스를 사용하여 인스턴스를 실행** 할 수 있다.<
 자체 IP 주소 범위를 선택하고 서브넷을 생성하며 라우팅 및 액세스 제한 목록을 구성<br/>
 **RDS의 기본 기능은 VPC에서 실행되는지 여부에 상관없이 동일**하다.<br/>
 
-데이터베이스 인스턴스는 **Private Subnet에서 격리되어 있으며 지정된 APP 인스턴스에만 직접 액세스할 수 있다.**<br/>
+데이터베이스 인스턴스는 **Private Subnet에서 격리**되어 있으며 **지정된 APP 인스턴스에만 직접 액세스**할 수 있다.<br/>
 
 <br/>
 
@@ -120,9 +121,9 @@ Amazon **VPC 서비스를 사용하여 인스턴스를 실행** 할 수 있다.<
 
 <br/>
 
-**AWS Lambda는 서버를 프로비저닝하거나 관리하지 않고도 코드를 실행할 수 있게 해주는 컴퓨팅 서비스이다.**<br/>
+AWS Lambda는 **서버를** 프로비저닝하거나 **관리하지 않고도 코드를 실행**할 수 있게 해주는 컴퓨팅 서비스이다.<br/>
 
-람다는 **필요시에만 코드를 실행하고 초당 수천 개의 요청으로 자동 확장**한다.<br/>
+람다는 **필요시에만 코드를 실행**하고 초당 수천 개의 요청으로 **자동 확장**한다.<br/>
 
 **컴퓨팅 시간에 대한 비용을 지불하지 않는다.**<br/>
 다양한 Programming Language 지원<br/>
@@ -134,7 +135,7 @@ Amazon **VPC 서비스를 사용하여 인스턴스를 실행** 할 수 있다.<
 
 <br/>
 
-PaaS(Platform as a Service)이며, APP를 빠르게 배포할 수 있다. 또한 관리의 복잡성을 줄인다.<br/>
+**PaaS**(Platform as a Service)이며, **APP를 빠르게 배포**할 수 있다. 또한 관리의 복잡성을 줄인다.<br/>
 
 * 제어 권한 유지
 	* 인스턴스 유형 선택
@@ -151,7 +152,7 @@ PaaS(Platform as a Service)이며, APP를 빠르게 배포할 수 있다. 또한
 
 <br/>
 
-* 유연한 완전관리형 게시/구독 메시징 및 모바일 통신 서비스이다.
+* 유연한 완전관리형 게시/구독 메시징 및 모바일 **통신 서비스**이다.
 * 구독 엔드포인트 및 클라이언트로의 메시지 전달을 Control 한다.
 * 안정적인 통신을 손쉽게 설정, 운영 및 전송할 수 있다.
 * 마이크로서비스, 분산 시스템 및 서버리스 애플리케이션을 분리 및 확장
@@ -163,7 +164,7 @@ PaaS(Platform as a Service)이며, APP를 빠르게 배포할 수 있다. 또한
 
 <br/>
 
-* AWS에서 실행하는 AWS 리소스와 APP를 실시간으로 모니터링한다.
+* AWS에서 실행하는 AWS 리소스와 APP를 **실시간으로 모니터링**한다.
 
 <br/><img src="/categoryImage/AWS/watch.png" width="700px"><br/>
 <br/>
@@ -217,7 +218,7 @@ WAF : Web Application Firewall
 
 <br/>
 
-**APP를 지원하는 관련 리소스 그룹을 반복적이고 예측할 수 있게 생성하는 작업을 자동화 및 간소화합니다.**
+APP를 지원하는 관련 리소스 그룹을 반복적이고 예측할 수 있게 생성하는 **작업을 자동화 및 간소화**한다.
 (AWS 리소스의 프로비저닝을 자동화하는 엔진 역할)<br/>
 <br/>
 
@@ -263,7 +264,7 @@ WAF : Web Application Firewall
 AWS CloudFormation을 사용할 경우 **스택을 하나의 단위로 관련 리소스를 관리**한다.<br/>
 스택을 생성, 업데이트, 삭제하여 리소스 모음을 생성, 업데이트 및 삭제할 수 있다.<br/>
 
-**스택의 모든 리소스는 스택의 AWS CloudFormation 템플릿으로 정의**한다.<br/>
+**스택의 모든 리소스는** 스택의 AWS CloudFormation **템플릿으로 정의**한다.<br/>
 
 Auto Scaling 그룹, Elastic Load Balancing 로드 밸런서 및 Amazon Relational Database Service(Amazon RDS) 데이터베이스 인스턴스를 포함하는 템플릿을 생성했다고 가정하자.<br/> 
 
