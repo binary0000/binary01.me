@@ -38,6 +38,13 @@ template: "page"
 
 ---
 
+## Certificates
+
+* ### AWS Cloud Practitioner
+* ### 정보처리기사
+
+---
+
 ## Papers<br/>
 ### 1. &nbspLoRaWAN 기반 블록체인 차량정보 관리 체계의 설계 및 구현
 - #### LoRa를 활용하여, 신뢰성 있는 차량 정보를 수집하고, 이를 블록체인으로 관리할 수 있는 시스템을 구축
