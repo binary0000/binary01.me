@@ -10,7 +10,7 @@ tags:
   - "DataTypes"
   - "Hoisting"
   - "FunctionScope"
-  - "ExcutionContext"
+  - "ExecutionContext"
   - "CallBack"
 description: "JavaScript로 개발은 많이 해보았지만, 개념에 대한 공부는 깊게 하지 않았다..."
 ---
@@ -18,7 +18,7 @@ description: "JavaScript로 개발은 많이 해보았지만, 개념에 대한 �
 <br/>
 
 JavaScript로 개발은 많이 해보았지만, 개념에 대한 공부는 깊게 하지 않았다.<br/>
-그래서 이번 긴 연휴동안 JavaScript를 공부하기로 했고, 공부한 내용을 정리할 예정이다!<br/>
+그래서 이번 긴 연휴 동안 JavaScript를 공부하기로 했고, 공부한 내용을 정리할 예정이다!<br/>
 
 ---
 
@@ -36,7 +36,7 @@ JavaScript 데이터 타입은 크게 2가지 **Primitive Type**, **Reference Ty
 * null
 * undefined
 
-Primitive Type는 값을 그대로 할당한다.
+Primitive Type은 값을 그대로 할당한다.
 
 ### Reference Type
 * Object
@@ -44,7 +44,7 @@ Primitive Type는 값을 그대로 할당한다.
 	* Function
 	* RegExp
 
-Reference Type는 값이 저장된 주소값을 할당(참조)한다.
+Reference Type은 값이 저장된 주소 값을 할당(참조)한다.
 
 <br/>
 
@@ -60,7 +60,7 @@ Reference Type는 값이 저장된 주소값을 할당(참조)한다.
 
 <br/>
 
-호이스팅은 변수 또는 함수를 끌어올린다라고 생각하면 된다!<br/>
+호이스팅은 변수 또는 함수를 끌어올린다고 생각하면 된다!<br/>
 
 ```js
 console.log(test1());
@@ -96,8 +96,8 @@ test1는 그 자체로 하나의 선언문이고, test2는 함수 표현식으�
 
 ### 함수 표현식의 순서
 1. 변수 선언
-2. 익명함수 선언
-3. 변수에 익명함수 할당
+2. 익명 함수 선언
+3. 변수에 익명 함수 할당
 
 <br/>
 
@@ -120,7 +120,7 @@ console.log(sum(1, 2));
 **3**<br/>
 **3**<br/>
 
-같은 함수 명을 가진 두 함수가 호이스팅된다면, **나중에 호이스팅된 함수가** 먼저 호이스팅된 함수를 **덮어씌운다.**<br/>
+같은 함수명을 가진 두 함수가 호이스팅 된다면, **나중에 호이스팅된 함수가** 먼저 호이스팅 된 함수를 **덮어씌운다.**<br/>
 
 따라서 위와 같은 Result를 확인할 수 있다.<br/>
 
@@ -146,7 +146,7 @@ console.log(sum(1, 2));
 
 <br/>
 
-### Function Scope, Excution Context
+### Function Scope, Execution Context
 
 <br/>
 
@@ -182,10 +182,10 @@ console.log(a);
 2. 변수 a 선언 및 할당, outer 함수 선언
 3. outer 함수 호출 및 outer 실행컨텍스트 생성
 4. inner 함수 선언
-5. outer 함수의 첫번째 console.log(a) 실행
+5. outer 함수의 첫 번째 console.log(a) 실행
 6. inner 함수 호출 및 inner 실행컨텍스트 생성
 7. inner 함수의 지역 변수 a 선언
-8. inner 함수의 첫번째 console.log(a) 실행
+8. inner 함수의 첫 번째 console.log(a) 실행
 9. inner 함수의 지역 변수 a에 3 할당
 10. inner 함수 실행컨텍스트 종료
 11. outer 함수의 마지막 줄 console.log(a) 실행
@@ -213,14 +213,14 @@ setInterval(() =>{
 }, 1000);
 ```
 
-setInterval은 정해진 주기마다 Callback 함수를 실행하며,  첫번째 인자는 Callback func, 두번째 인자는 milliseconds이다.<br/>
+setInterval은 정해진 주기마다 Callback 함수를 실행하며,  첫 번째 인자는 Callback func, 두 번째 인자는 milliseconds이다.<br/>
 
-따라서 위 코드는 Arrow function으로 정의한 콜백함수를 setInterval에게 제어권을 넘기며 주기인 1초마다 콜백함수를 실행하고 그 결과를 나에게 돌려주는 것이다.<br/>
+따라서 위 코드는 Arrow function으로 정의한 콜백 함수를 setInterval에게 제어권을 넘기며 주기인 1초마다 콜백 함수를 실행하고 그 결과를 나에게 돌려주는 것이다.<br/>
 
 <br/>
 
-### 콜백함수의 특징
-* 다른함수(a)의 인자로 콜백함수(b)를 전달하면, a가 b의 제어권을 갖게된다.
+### 콜백 함수의 특징
+* 다른 함수(a)의 인자로 콜백 함수(b)를 전달하면, a가 b의 제어권을 갖게 된다.
 * 특별한 요청 (bind)이 없는 한 a의 미리 정해진 방식에 따라 b를 호출한다.
 	* 미리 정해진 방식
 		* this에 무엇을 바인딩할지
