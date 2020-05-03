@@ -12,7 +12,6 @@ description: "이번 포스팅에서는 REST API의 단점에 간략히 알아�
 socialImage: "/categoryImage/GraphQL/graphql.png"
 ---
 
-
 ### REST API의 단점
 
 * **Overfetching**
