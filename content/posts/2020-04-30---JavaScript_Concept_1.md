@@ -7,6 +7,11 @@ slug: "JavaScript_Concept_1"
 category: "JavaScript"
 tags:
   - "JavaScript"
+  - "DataTypes"
+  - "Hoisting"
+  - "FunctionScope"
+  - "ExcutionContext"
+  - "CallBack"
 description: "JavaScript로 개발은 많이 해보았지만, 개념에 대한 공부는 깊게 하지 않았다..."
 ---
 
