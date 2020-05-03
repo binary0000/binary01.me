@@ -27,6 +27,10 @@ module.exports = {
       path: '/category/graph-ql'
     },
     {
+      label: 'JavaScript',
+      path: '/category/java-script'
+    },
+    {
       label: 'About me',
       path: '/pages/about'
     }
