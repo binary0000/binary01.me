@@ -1,11 +1,6 @@
 @import '../../assets/scss/variables';
 @import '../../assets/scss/mixins';
 
-@font-face { font-family: 'BMHANNAPro'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.0/BMHANNAPro.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
 .feed {
   &__item {
     @include margin-bottom(1.25);
@@ -29,9 +24,7 @@
           color: $color-base;
           border-bottom: 1px solid $color-base;
         }
-
       }
-
     }
 
     &-description {
