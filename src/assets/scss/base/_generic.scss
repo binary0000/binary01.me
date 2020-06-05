@@ -1,13 +1,16 @@
 /** 
  * Generic
  */
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
 html {
   font-size: $typographic-root-font-size;
 }
 
 body {
   margin: 0 0 0 calc(100vw - 100%);
-  font-family: $typographic-font-family;
+  font-family: 'Noto Sans KR', sans-serif;;
   color: $typographic-base-font-color;
   line-height: $typographic-base-line-height;
   font-size: $typographic-base-font-size;
