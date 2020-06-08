@@ -6025,13 +6025,6 @@ gatsby-plugin-catch-links@^2.1.24:
     "@babel/runtime" "^7.7.6"
     escape-string-regexp "^1.0.5"
 
-gatsby-plugin-dark-mode@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-dark-mode/-/gatsby-plugin-dark-mode-1.1.2.tgz#9bab271da9f913cd64687a2b2d85b1d62a3605d8"
-  integrity sha512-kq/7/KSIgyYxolSqLxXfmcC/iBU98XpRGcIOaa3bjjl8Tb0WDYwfa45zABx1XNjB0YecWdgniss+kqmeAu04GA==
-  dependencies:
-    prop-types "^15.5.7"
-
 gatsby-plugin-disqus@^1.1.4:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-disqus/-/gatsby-plugin-disqus-1.1.4.tgz#1b0bd7c13551ccbca15203af5be52ce4a72d3295"
@@ -8891,7 +8884,7 @@ lost@8.3.1:
     object-assign "^4.1.1"
     postcss "7.0.14"
 
-"lottie-api@github:bodymovin/lottie-api#master":
+lottie-api@bodymovin/lottie-api#master:
   version "1.0.3"
   resolved "https://codeload.github.com/bodymovin/lottie-api/tar.gz/3878f3acb1466a012553a08b929a12b11937c855"
 
@@ -11245,7 +11238,7 @@ prompts@^2.3.0:
     kleur "^3.0.3"
     sisteransi "^1.0.4"
 
-prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.7, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==

@@ -200,6 +200,5 @@ module.exports = {
         shortname: 'binary01'
       }
     },
-    'gatsby-plugin-dark-mode'
   ]
 };

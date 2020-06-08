@@ -14,9 +14,14 @@ class ThemeProvider extends React.Component {
 
     setDarkMode = () => {
         this.setState((state) => {
-            if(state.isDarkMode) document.body.classList.remove('dark');
-            else document.body.classList.add('dark');
-
+            if (state.isDarkMode === true) { 
+                document.body.classList.remove('dark');
+                document.body.classList.add('light');
+            }
+            else { 
+                document.body.classList.remove('light');
+                document.body.classList.add('dark');
+            }
             return { isDarkMode: !state.isDarkMode }
         })
     }
