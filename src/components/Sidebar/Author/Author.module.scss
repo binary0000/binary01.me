@@ -1,5 +1,7 @@
 @import '../../../assets/scss/variables';
 @import '../../../assets/scss/mixins';
+@import '../../../assets/scss/base/darkTheme';
+
 
 .author {
   &__photo {
@@ -16,15 +18,13 @@
     @include margin(.5, 0, .5, 0);
 
     &-link {
-      color: $color-base;
+      color: var(--color);
 
       &:hover,
       &:focus {
-        color: $color-base
+        color: var(--color);
       }
-
     }
-
   }
 
   &__subtitle {

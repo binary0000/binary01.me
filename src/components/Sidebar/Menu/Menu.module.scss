@@ -1,5 +1,6 @@
 @import '../../../assets/scss/variables';
 @import '../../../assets/scss/mixins';
+@import '../../../assets/scss/base/darkTheme';
 
 .menu {
   @include margin-bottom(1);
@@ -15,7 +16,7 @@
 
       &-link {
         font-size: $typographic-base-font-size;
-        color: $typographic-base-font-color;
+        color: var(--color);
         font-weight: normal;
         border: 0;
 
@@ -26,8 +27,8 @@
         }
 
         &--active {
-          color: $color-base;
-          border-bottom: 1px solid $color-base;
+          color: var(--color);
+          border-bottom: 1px solid var(--color);
         }
 
       }

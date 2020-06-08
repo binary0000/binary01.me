@@ -10,8 +10,9 @@ html {
 
 body {
   margin: 0 0 0 calc(100vw - 100%);
-  font-family: 'Noto Sans KR', sans-serif;;
-  color: $typographic-base-font-color;
+  font-family: 'Noto Sans KR', sans-serif;
+  --color: #222;
+  color: var(--color);
   line-height: $typographic-base-line-height;
   font-size: $typographic-base-font-size;
   -ms-text-size-adjust: 100%;
@@ -170,3 +171,11 @@ figcaption {
   }
 
 }
+
+body {
+  --bg: white;
+  background-color: var(--bg);
+  transition: all .5s ease;
+}
+
+@import './darkTheme'

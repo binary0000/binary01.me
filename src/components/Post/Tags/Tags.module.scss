@@ -1,5 +1,6 @@
 @import '../../../assets/scss/variables';
 @import '../../../assets/scss/mixins';
+@import '../../../assets/scss/base/darkTheme';
 
 .tags {
   @include margin-bottom(.5);
@@ -21,7 +22,7 @@
         border: 1px solid $color-gray-border;
         text-decoration: none;
         border-radius: $button-border-radius;
-        color: $color-base;
+        color: var(--color);
 
         &:hover,
         &:focus {

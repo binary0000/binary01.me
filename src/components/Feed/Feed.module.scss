@@ -1,5 +1,6 @@
 @import '../../assets/scss/variables';
 @import '../../assets/scss/mixins';
+@import '../../assets/scss/base/darkTheme';
 
 .feed {
   &__item {
@@ -17,12 +18,12 @@
       @include margin-bottom(.5);
 
       &-link {
-        color: $color-base;
+        color: var(--color);
 
         &:hover,
         &:focus {
-          color: $color-base;
-          border-bottom: 1px solid $color-base;
+          color: var(--color);
+          border-bottom: 1px solid var(--color);
         }
       }
     }
@@ -36,7 +37,7 @@
     &-meta {
       &-time {
         font-size: $typographic-small-font-size;
-        color: $color-base;
+        color: aqua;
         font-weight: 600;
         text-transform: uppercase;
       }
