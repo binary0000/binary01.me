@@ -27,7 +27,7 @@ const Author = ({ author, isIndex }: Props) => (
 
     <br /><p className={styles['author__name-content']}>{author.bio}</p><br />
 
-    <Themebutton></Themebutton>
+    <Themebutton />
   </div>
 );
 

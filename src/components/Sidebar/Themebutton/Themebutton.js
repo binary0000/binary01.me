@@ -1,27 +1,36 @@
-import React, { useState } from 'react';
+import React, { useContext } from 'react';
 import { ThemeToggler } from 'gatsby-plugin-dark-mode';
 import DarkModeToggle from 'react-dark-mode-toggle';
+import ThemeContext from '../../../context/ThemeContext';
 
 
 const Themebutton = () => {
-    const [isDarkMode, setIsDarkMode] = useState(false);
+    // const [isDarkMode, setIsDarkMode] = useState(false);
+    const { isDarkMode, setDarkMode } = useContext(ThemeContext);
 
-    // const toggleFunc = (isDarkMode, toggleTheme) => {
-    //     console.log(isDarkMode);
-    //     setIsDarkMode(isDarkMode);
-    //     toggleTheme(isDarkMode ? 'dark' : 'light');
-    // }
+    console.log(document.body.className);
 
     return (
-        <ThemeToggler>
-            {({ toggleTheme }) => (
-                <DarkModeToggle onChange={(isDarkMode) => {
-                    setIsDarkMode(isDarkMode);
-                    toggleTheme(isDarkMode ? 'dark' : 'light');
-                }}
-                checked={isDarkMode} size={80} />
-            )}
-        </ThemeToggler>
+
+        <DarkModeToggle onChange={() =>
+            setDarkMode()
+        }
+            checked={isDarkMode}
+            size={75}
+        />
+
+        // <ThemeToggler>
+        //     {({ toggleTheme }) =>
+        //         <DarkModeToggle onChange={() => 
+        //             setDarkMode()
+        //             // toggleTheme(isDarkMode ? 'dark' : 'light');
+
+        //         }
+        //             checked={isDarkMode}
+        //             size={75}
+        //         />
+        //     }
+        // </ThemeToggler>
     );
 };
 
