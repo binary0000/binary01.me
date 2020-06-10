@@ -1,6 +1,7 @@
 // @flow strict
 import React from 'react';
 import Author from './Author';
+import Themebutton from './Themebutton/Themebutton';
 import Contacts from './Contacts';
 import Copyright from './Copyright';
 import Menu from './Menu';
@@ -21,6 +22,7 @@ const Sidebar = ({ isIndex }: Props) => {
       <div className={styles['sidebar__inner']}>
         <Author author={author} isIndex={isIndex} />
         <Menu menu={menu} categories={categories} />
+        <Themebutton />
         <Contacts contacts={author.contacts} />
         <Copyright copyright={copyright} />
       </div>

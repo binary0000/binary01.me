@@ -2,7 +2,6 @@
 import React from 'react';
 import { withPrefix, Link } from 'gatsby';
 import styles from './Author.module.scss';
-import Themebutton from '../Themebutton/Themebutton';
 
 type Props = {
   author: {
@@ -25,9 +24,8 @@ const Author = ({ author, isIndex }: Props) => (
       />
     </Link>
 
-    <br /><p className={styles['author__name-content']}>{author.bio}</p><br />
+    <br /><p className={styles['author__name-content']}>{author.bio}</p>
 
-    <Themebutton />
   </div>
 );
 
