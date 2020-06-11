@@ -11,7 +11,7 @@
     }
 
     &-title {
-      font-size: $typographic-base-font-size * 2;
+      font-size: $typographic-base-font-size * 1.8;
       font-weight: bold;
       @include line-height(1.5);
       @include margin-top(0);
@@ -29,9 +29,9 @@
     }
 
     &-description {
-      font-size: $typographic-base-font-size*1.5;
+      font-size: $typographic-base-font-size*1.0;
       @include line-height(1);
-      @include margin-bottom(.75);
+      @include margin-bottom(1.75);
     }
 
     &-meta {
