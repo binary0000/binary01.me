@@ -19,18 +19,18 @@ description: "오늘 포스팅에서 다룰 주제는 여러 영역에서의 thi
 ---
 
 ## this
-* 전역공간에서 this
+* 전역 공간에서 this
 * 함수 내부에서 this
-* 메소드 호출시 this
+* 메소드 호출 시 this
 * Callback에서 this
 
 <br/>
 
 ---
 
-### 전역공간에서 this
+### 전역 공간에서 this
 
-전역공간에서 this를 호출하면 Window 또는 global 객체를 가리킨다!
+전역 공간에서 this를 호출하면 Window 또는 global 객체를 가리킨다!
 
 <img src= "/categoryImage/JavaScript/console_this.jpg" width="500px"><br/>
 
@@ -65,13 +65,13 @@ var d = {
 d.e();
 ```
 
-(실행결과 생략)<br/><br/>
+(실행 결과 생략)<br/><br/>
 
 함수 내부에서 this 호출 또한 **Node에서 출력 시 global, Browser에서 출력 시 Window 객체**를 출력한다!
 
 ---
 
-### 메소드 호출시 this
+### 메소드 호출 시 this
 
 ```javascript
 var a = {
@@ -82,8 +82,8 @@ var a = {
 a.b();
 ```
 
-메소드에서 this을 호출 시 this는 메소드 호출의 주체를 가리킨다.<br/>
-즉, 위 사진와 같이 객체 a 내부에 객체 b가 있을 경우 **this는 객체 a**를 가리킨다.
+메소드에서 this를 호출 시 this는 메소드 호출의 주체를 가리킨다.<br/>
+즉, 위 사진과 같이 객체 a 내부에 객체 b가 있을 경우 **this는 객체 a**를 가리킨다.
 
 #### 추가예시
 ```javascript
@@ -118,7 +118,7 @@ obj.b();
 위 예시에서 각 a의 출력 결과는 왜 다를까!?<br/>
 -> **b는 메소드**이지만, **c는 함수**이다. 그래서 다른 결과가 출력되는 것이다.<br/>
 
-그렇다면 함수 c에서도 20을 출력할 수 있는 방법은 뭘까!? 🤔
+그렇다면 함수 c에서도 20을 출력하는 있는 방법은 뭘까!? 🤔
 
 ```javascript
 var a = 10;
@@ -140,7 +140,7 @@ obj.b();
 
 <br/>
 
-#### 메소드 호출시 this 정리
+#### 메소드 호출 시 this 정리
 
 함수에서 this출력 시 전역 객체(global or Window)가 출력되기 때문에 함수는 (전역 객체)의 메소드라고 생각하면 편하다!<br/>
 
@@ -204,7 +204,7 @@ var obj = {
 obj.b(callback);
 ```
 
-기본적으로 함수 내부에서의 this와 같으므로, Window 또는 global를 출력한다.<br/>
+기본적으로 함수 내부에서의 this와 같아서, Window 또는 global을 출력한다.<br/>
 
 #### 우회 방법
 
@@ -254,8 +254,8 @@ setTimeout(callback.bind(obj), 100);
 <br/>
 
 입사를 한 지 얼마 되지 않아 정신이 없어 오랜만에 포스팅이다 😥<br/>
-closure도 정리하려 했지만 포스팅이 길어져서 다음 포스팅에 작성하기로 했다.<br/>
-시간날 때마다 틈틈이 작성해야겠당!<br/>
+closure도 정리하려 했지만, 포스팅이 길어져서 다음 포스팅에 작성하기로 했다.<br/>
+시간이 날 때마다 틈틈이 작성해야겠당!<br/>
 
 ---
 
