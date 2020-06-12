@@ -6,7 +6,7 @@ module.exports = {
   title: 'Blog by Jinsoo Lee',
   subtitle: 'subtitle',
   copyright: '© All rights reserved.',
-  postsPerPage: 10,
+  postsPerPage: 7,
   googleAnalyticsId: 'UA-158786877-1',
   useKatex: false,
   menu: [
