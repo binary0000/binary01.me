@@ -22,13 +22,16 @@ const Post = ({ post }: Props) => {
 
   return (
     <div className={styles['post']}>
+      <div className={styles['post__tag']}>
+        {tags && tagSlugs && <Tags tags={tags} tagSlugs={tagSlugs} />}
+      </div>
       <div className={styles['post__content']}>
         <Content body={html} title={title} />
       </div>
 
       <div className={styles['post__footer']}>
         <Meta date={date} />
-        {tags && tagSlugs && <Tags tags={tags} tagSlugs={tagSlugs} />}
+        {/* {tags && tagSlugs && <Tags tags={tags} tagSlugs={tagSlugs} />} */}
       </div>
 
       <div className={styles['post__comments']}>
