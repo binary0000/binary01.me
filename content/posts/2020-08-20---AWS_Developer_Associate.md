@@ -3,7 +3,7 @@ title: AWS Developer Associate 자격증 공부 -1!
 date: "2020-08-20T23:46:37.121Z"
 template: "post"
 draft: false
-slug: " AWS_Developer_Associate_1"
+slug: "AWS_Developer_Associate_1"
 category: "AWS"
 tags:
   - "AWS"
