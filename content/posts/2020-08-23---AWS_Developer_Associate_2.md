@@ -20,7 +20,7 @@ description: "저번 포스팅에 이어 오늘은 EC2와 LB에 관해 설명한
 
 공부를 하며 새로운 알게 된 부분, 중요한 부분만 간단하게 적으려 노력했다.<br/>
 
-## EC2 User Data
+### EC2 User Data
 
 - **Script is only run once at the instance first start**
 
@@ -44,13 +44,13 @@ description: "저번 포스팅에 이어 오늘은 EC2와 LB에 관해 설명한
 
 ---
 
-## EC2 Pricing
+### EC2 Pricing
 
 - 1분당 사용량 청구
 - Region, Instance Type, OS 등에 따라 가격이 다름
 - Instance가 Stop 상태면 가격 청구 X
 
-## AMI
+### AMI
 - Custom Image
 - Region에 종속적 
 
@@ -72,7 +72,7 @@ description: "저번 포스팅에 이어 오늘은 EC2와 LB에 관해 설명한
 
 ---
 
-## ELB, ASG
+### ELB, ASG
 
 - Scalability
 	- Vertical Scalability
@@ -117,7 +117,7 @@ description: "저번 포스팅에 이어 오늘은 EC2와 LB에 관해 설명한
     - Error 503은 LB의 에러 !
 	- 모니터링 가능 (ELB access logs, CloudWatch Metrics) 
 
-## LB Stickiness
+### LB Stickiness
 
 <img src= "/categoryImage/AWS/Developer/lb_stickiness.png" width="550px">
 
@@ -125,7 +125,7 @@ description: "저번 포스팅에 이어 오늘은 EC2와 LB에 관해 설명한
 - CLB & ALB에서 사용 가능 (쿠키가 사용된다)
 - 사용 시, 각 EC2 Instance로의 부하가 달라질 수 있다.
 
-## Cross-Zone Load Balancing
+### Cross-Zone Load Balancing
 
 <img src= "/categoryImage/AWS/Developer/cross_zone.png" width="400px">
 

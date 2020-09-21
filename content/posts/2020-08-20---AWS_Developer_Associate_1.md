@@ -23,7 +23,7 @@ description: "Cloud Practitioner를 취득하고 다음 자격증인 AWS Develop
 
 공부를 하며 새로운 알게 된 부분, 중요한 부분만 간단하게 적으려 노력했다.<br/>
 
-## AWS Budget Setup
+### AWS Budget Setup
 
 - 사용자가 특정 기간 동안 사용할 예산을 정하고 초과한다면 이메일 등으로 알람을 보냄
 - 알람 설정 종류
@@ -32,7 +32,7 @@ description: "Cloud Practitioner를 취득하고 다음 자격증인 AWS Develop
 
 ---
 
-## AWS Fundamentals
+### AWS Fundamentals
 
 - Regions
   - Cluster of Data Centers
@@ -72,7 +72,7 @@ description: "Cloud Practitioner를 취득하고 다음 자격증인 AWS Develop
 
 ---
 
-## SSH Troubleshooting
+### SSH Troubleshooting
 
 - Connection timeout
     - Check Security group 
@@ -90,7 +90,7 @@ description: "Cloud Practitioner를 취득하고 다음 자격증인 AWS Develop
 
 ---
 
-## Security Groups
+### Security Groups
 
 - 네트워크 보안의 뼈대
 
@@ -107,7 +107,7 @@ description: "Cloud Practitioner를 취득하고 다음 자격증인 AWS Develop
 
 <img src= "/categoryImage/AWS/Developer/sg_3.png" width="600px"><br/>
 
-## Private IP vs Public IP vs Elastic IP
+### Private IP vs Public IP vs Elastic IP
 
 - Public IP
     - 인터넷에서 유니크하다
