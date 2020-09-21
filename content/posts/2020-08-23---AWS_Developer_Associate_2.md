@@ -9,12 +9,12 @@ tags:
   - "AWS"
   - "Developer Associate"
 
-description: "저번 포스팅에 이어 오늘은 EC2와 LB에 대해 설명한다."
+description: "저번 포스팅에 이어 오늘은 EC2와 LB에 관해 설명한다."
 ---
 
 <br/>
 
-저번 포스팅에 이어 오늘은 EC2와 LB에 대해 설명한다.<br/>
+저번 포스팅에 이어 오늘은 EC2와 LB에 관해 설명한다.<br/>
 
 ---
 
@@ -37,7 +37,7 @@ description: "저번 포스팅에 이어 오늘은 EC2와 LB에 대해 설명한
 	- 하나의 EC2에 Eth0, Eth1 등 두 개의 Private IP 할당 가능
 	- 하나의 Private IP 당 하나의 EIP
 	- 하나의 Public IP 당 하나의 EIP
-	- 하나이상의 보안 그룹 할당 가능
+	- 하나 이상의 보안 그룹 할당 가능
 	- 하나의 MAC 주소 할당 가능
 	- AZ에 종속
     - Eth를 다른 EC2 인스턴스로 옮겨 Private IP 변경 가능
@@ -76,15 +76,15 @@ description: "저번 포스팅에 이어 오늘은 EC2와 LB에 대해 설명한
 
 - Scalability
 	- Vertical Scalability
-		- Instance의 spec를 올림
+		- Instance의 spec을 올림
 	- Horizontal Scalability (Elasticity)
 		- Instance의 수를 늘림
 
 - High Availability
-    - 시스템을 최소 2개이상의 DC 또는 AZ를 사용
+    - 시스템을 최소 2개 이상의 DC 또는 AZ를 사용
 
 - LB
-	- 인터넷 트래픽을 여러 서버들로 뿌려주는 역할
+	- 인터넷 트래픽을 여러 서버로 뿌려주는 역할
 	- SSL 적용 가능
 	- Instance에 대한 Health check 가능
     - High Availability 제공
@@ -122,8 +122,8 @@ description: "저번 포스팅에 이어 오늘은 EC2와 LB에 대해 설명한
 <img src= "/categoryImage/AWS/Developer/lb_stickiness.png" width="550px">
 
 - 동일한 Client는 LB를 통해 이전에 접근한 Instance로 다시 접근하는 기능
-- CLB & ALB에서 사용가능 (쿠키가 사용된다)
-- 사용시, 각 EC2 Instance로의 부하가 달라질 수 있다.
+- CLB & ALB에서 사용 가능 (쿠키가 사용된다)
+- 사용 시, 각 EC2 Instance로의 부하가 달라질 수 있다.
 
 ## Cross-Zone Load Balancing
 
@@ -133,15 +133,15 @@ description: "저번 포스팅에 이어 오늘은 EC2와 LB에 대해 설명한
 
 - CLB
 	- 초기값 : 비활성화
-	- AZ간 데이터 전송 요금 X
+	- AZ 간 데이터 전송 요금 X
 
 - ALB
 	- 초기값 : 활성화(수정 불가능)
-	- AZ간 데이터 전송 요금 X
+	- AZ 간 데이터 전송 요금 X
 
 - NLB
 	- 초기값 : 비활성화
-    - AZ간 데이터 전송 요금 O
+    - AZ 간 데이터 전송 요금 O
 
 ---
 
