@@ -130,6 +130,8 @@ description: "Cloud Practitioner를 취득하고 다음 자격증인 AWS Develop
     - Public IP for the WWW
 	- Instance가 stop -> start 되면 Public IP가 변경됨 (Private IP, EIP 변경되지 않음)
 
+---
+
 ### 마무리
 
 <br/>
