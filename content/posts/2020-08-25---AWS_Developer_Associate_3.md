@@ -36,7 +36,7 @@ description: "저번 포스팅에 이어 오늘은 Auto Scaling Group과 EBS, EF
 ### ELB - Connection Draining
 
 - Time to complete "in-flight requests" while the instance is de-registering or unhealthy
-- 초기 값 : 300초 (범위 : 1 ~ 3600초)
+- 초기 값 : 300초 (범위 : 1 ~ 3,600초)
 
 <img src= "/categoryImage/AWS/Developer/lb_cd.png" width="400px"><br/>
 
@@ -44,15 +44,15 @@ description: "저번 포스팅에 이어 오늘은 Auto Scaling Group과 EBS, EF
 
 ### Auto Scaling Group
 
-- 증가된 부하에 맞추어 Scale out를 한다.
-- 감소된 부하에 맞추어 Scale in를 한다.
+- 증가한 부하에 맞추어 Scale out을 한다.
+- 감소한 부하에 맞추어 Scale in을 한다.
 - 최소, 최대 인스턴스 수 지정 가능 
 
 <img src= "/categoryImage/AWS/Developer/asg_1.png" width="600px"><br/>
 
 - LB의 타겟그룹이 ASG라면 Scale out 시 자동으로 추가된 인스턴스에도 트래픽을 보낼 수 있음.
 - CloudWatch를 통해 ASG (Scale in, out) 가능
-- 평균 값(CPU, MEM 등 Custom도 가능)을 통해 CloudWatch 설정가능 (min, max X)
+- 평균값(CPU, MEM 등 Custom도 가능)을 통해 CloudWatch 설정가능 (min, max X)
 
 <img src= "/categoryImage/AWS/Developer/asg_2.png" width="600px"><br/>
 
@@ -75,9 +75,9 @@ description: "저번 포스팅에 이어 오늘은 Auto Scaling Group과 EBS, EF
 - Locked to an AZ
 
 - EBS vs Instance Store(Instance Store 기준)
-	- Instance Store는 물리적으로 기계가 attach되어있음
-	- Better I/O Perfomance
-	- High IOPS (physically attached)
+	- Instance Store는 물리적으로 기계가 attach 되어있음
+	- Better I/O Performance
+	- High IOPS (Physically attached)
     - 인스턴스 중지를 하면 데이터가 손실될 가능성이 높다
 
 <img src= "/categoryImage/AWS/Developer/efs.png" width="600px"><br/>
@@ -93,7 +93,7 @@ description: "저번 포스팅에 이어 오늘은 Auto Scaling Group과 EBS, EF
 - EFS vs EBS(EBS 기준)
 	- EBS는 한 번에 하나의 Instance에만 부착됨
 	- AZ 내부에서만 탈부착 가능
-	- EC2가 종료되면, Root EBS Volume이 종료된다 (초기값)
+	- EC2가 종료되면, Root EBS Volume이 종료된다 (초기 값)
 
 ---
 
@@ -115,17 +115,17 @@ description: "저번 포스팅에 이어 오늘은 Auto Scaling Group과 EBS, EF
 - RDS Backups
 	- Automated backups
 		- Daily full backup
-		- 트랜젝션 로깅 (5분 마다)
-		- 7일간 유지 (35일까지 연장가능)
+		- 트랜젝션 로깅 (5분마다)
+		- 7일간 유지 (35일까지 연장 가능)
 	- DB Snapshots
 		- User가 트리거
-		- 유지기간 설정가능 (최대 6개월)
+		- 유지 기간 설정 가능 (최대 6개월)
 
 **시험대비로 Multi AZ와 Read replica의 차이를 이해하는 것은 매우 중요**<br/>
 
 - Read Replica
 	
-	- 최대 5개까지 Read Replica 할당가능
+	- 최대 5개까지 Read Replica 할당 가능
 	- **같은 AZ, 다른 AZ, 다른 Region 모두 가능**
 	- Read Replica는 SELECT만 가능
 	- RDS Read Replicas를 다른 AZ에 배치할 경우 복사할 때 Cost 발생
