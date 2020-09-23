@@ -90,7 +90,7 @@ Data가 빠르게 변하고 Key의 사용이 빈번하다면 Caching은 비효�
     - DB, Cache에 저장된 Data는 최신의 Data이다
     - Data 쓰기의 단계가 총 2단계이다
 - 단점
-    - Cache에 있는 많은 Data들이 읽히지 않을 가능성이 있다
+    - Cache에 있는 많은 Data가 읽히지 않을 가능성이 있다
 
 ---
 
@@ -114,30 +114,30 @@ IP를 전달받은 후, Web browser는 대상 IP에 HTTP 요청을 보낸다.<br
 
 <img src= "/categoryImage/AWS/Developer/route53_2.png" width="450px"><br/>
 
-TTL은 컴퓨터나 네트워크에서 데이터의 유효 기간을 나타내기 위한 방법이다.<br/>
-특정 도메인을 이전에 호출하였고 TTL값을 가지고 있다고 가정하자.<br/>
+TTL은 컴퓨터나 네트워크에서 데이터의 유효 기간을 나타내는 방법이다.<br/>
+특정 도메인을 이전에 호출하였고 TTL 값을 가지고 있다고 가정하자.<br/>
 
-Web browser에서 해당 도메인을 TTL 이내에 호출 할 때, Web browser는 DNS 서버로 질의하지 않고 이미 가지고 있는 DNS Cache를 활용하여 대상 IP로 요청을 보낸다.<br/>
+Web browser에서 해당 도메인을 TTL 이내에 호출할 때, Web browser는 DNS 서버로 질의하지 않고 이미 가지고 있는 DNS Cache를 활용하여 대상 IP로 요청을 보낸다.<br/>
 
 ### Route 53의 기능
 
 <br/>
 
--	Weight : 트래픽이 여러 Instance 중 어느 Instance에 ?% 확률로 할당될 지 정할 수 있음
+-	Weight : 트래픽이 여러 Instance 중 어느 Instance에 ?% 확률로 할당될지 정할 수 있음
 	
--	Latency : 전세계의 유저가 Latency가 낮은 Instance에 트래픽을 보낼 수 있도록 한다
+-	Latency : 전 세계의 유저가 Latency가 낮은 Instance에 트래픽을 보낼 수 있도록 한다
 	
 - Health Check : 대상 Instance의 상태를 체크한다(초기 값 : 3)
     -  실패 시 -> unhealthy
     -  성공 시 -> health
-    -  하나의 Resource에 redirect할 경우 health check 사용 불가능
+    -  하나의 Resource에 redirect 할 경우 health check 사용 불가능
 
 - Failover
     - Primary Resource 장애 시, Secondary로 Switching
 
 <img src= "/categoryImage/AWS/Developer/route53_3.png" width="450px"><br/>
 
--	GeoLocation : 유저의 위치에 가까운 곳의 Instance로 routing하는 기능	
+-	GeoLocation : 유저의 위치에 가까운 곳의 Instance로 routing 하는 기능	
 - Multi Value
     -  같은 도메인에 여러 개의 A record를 단다
     -  Dig 명령어 시, 각 인스턴스 IP 반환하는 것을 확인할 수 있음
