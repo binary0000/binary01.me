@@ -192,7 +192,7 @@ EC2에서만 호출가능, 해당하는 EC2 인스턴스의 정보를 확인할 
 - API Limit : S3는 5500/sec, EC2는 100/sec
 - Service limit increase 가능
 	
-##### AWS Credential Best Practice
+#### AWS Credential Best Practice
 	
 - AWS Credential를 절대 코드에 저장하면 안된다.
 - AWS 내부에서 작업할 경우,Role을 머신에 붙여라
