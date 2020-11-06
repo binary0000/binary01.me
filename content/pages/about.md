@@ -20,7 +20,7 @@ template: "page"
 
 ## Work Experiences<br/>
 
-### 2020. 01 ~ 2019. 11 &nbsp&nbsp&nbsp신세계 I&C / Cloud Architect
+### 2020. 01 ~ 2020. 11 &nbsp&nbsp&nbsp신세계 I&C / Cloud Architect
 ### 2019. 08 ~ 2019. 11 &nbsp&nbsp&nbsp델리(Dely) / Back-End 개발자
 
 - #### Back-End 개발 
