@@ -137,7 +137,7 @@ Web browser에서 해당 도메인을 TTL 이내에 호출할 때, Web browser�
 
 <img src= "/categoryImage/AWS/Developer/route53_3.png" width="450px"><br/>
 
--	GeoLocation : 유저의 위치에 가까운 곳의 Instance로 routing 하는 기능	
+- GeoLocation : 유저의 위치에 가까운 곳의 Instance로 routing 하는 기능
 - Multi Value
     -  같은 도메인에 여러 개의 A record를 단다
     -  Dig 명령어 시, 각 인스턴스 IP 반환하는 것을 확인할 수 있음
