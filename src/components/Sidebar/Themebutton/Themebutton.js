@@ -11,6 +11,7 @@ const Themebutton = () => {
             onChange={() => setDarkMode()}
             checked={isDarkMode}
             size={75}
+            speed={1}
         />
     );
 };
