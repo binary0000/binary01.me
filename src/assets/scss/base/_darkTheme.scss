@@ -3,7 +3,7 @@ body.dark {
     --bg: #282c35;
     --color: #eee;
     color: var(--color);
-    transition: all .5s ease;
+    transition: all .8s ease;
 
     hr {
         background-image: linear-gradient(to bottom, transparent 1px, transparent 11px, var(--color) 11px, var(--color) 15px, transparent 15px, transparent 26px);
