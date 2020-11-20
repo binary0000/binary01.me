@@ -24,14 +24,15 @@ class ThemeProvider extends React.Component {
     }
 
     componentDidMount = () => {
-        let Mode = this.state.isDarkMode === true ? toDark : toLight
+        const Mode = this.state.isDarkMode === true ? toDark : toLight
         Mode();
     }
 
     setDarkMode = () => {
         this.setState({ isDarkMode: !this.state.isDarkMode }, () => {
+            const Mode = this.state.isDarkMode === true ? toDark : toLight
             localStorage.setItem('isDarkMode', this.state.isDarkMode)
-            let Mode = this.state.isDarkMode === true ? toDark : toLight
+            
             Mode();
         })
     }
