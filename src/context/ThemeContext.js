@@ -7,22 +7,32 @@ const initialState = {
 
 const ThemeContext = createContext(initialState);
 
+const toDark = () => {
+    document.body.classList.remove('light');
+    document.body.classList.add('dark');
+}
+
+const toLight = () => {
+    document.body.classList.remove('dark');
+    document.body.classList.add('light');
+}
+
 class ThemeProvider extends React.Component {
+
     state = {
-        isDarkMode: false
+        isDarkMode: localStorage.getItem('isDarkMode') === 'true' ? true : false
+    }
+
+    componentDidMount = () => {
+        let Mode = this.state.isDarkMode === true ? toDark : toLight
+        Mode();
     }
 
     setDarkMode = () => {
-        this.setState((state) => {
-            if (state.isDarkMode === true) { 
-                document.body.classList.remove('dark');
-                document.body.classList.add('light');
-            }
-            else { 
-                document.body.classList.remove('light');
-                document.body.classList.add('dark');
-            }
-            return { isDarkMode: !state.isDarkMode }
+        this.setState({ isDarkMode: !this.state.isDarkMode }, () => {
+            localStorage.setItem('isDarkMode', this.state.isDarkMode)
+            let Mode = this.state.isDarkMode === true ? toDark : toLight
+            Mode();
         })
     }
 
