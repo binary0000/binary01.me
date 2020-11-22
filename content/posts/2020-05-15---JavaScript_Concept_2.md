@@ -24,8 +24,6 @@ description: "오늘 포스팅에서 다룰 주제는 여러 영역에서의 thi
 * 메소드 호출 시 this
 * Callback에서 this
 
-<br/>
-
 ---
 
 ### 전역 공간에서 this
@@ -160,7 +158,7 @@ func.bind(thisArg[, arg[, arg2[, ...]]])
 call, bind는 thisArg를 제외하고 무제한으로 인자가 올 수 있다.<br/>
 apply와의 차이는 배열로 합쳐서 하나로 받느냐 아니냐의 정도로 인식하면 된다.<br/>
 
-call과 apply는 즉시 호출, Bind는 새로운 함수를 생성할 뿐 호출을 담당하지는 않는다.
+call과 apply는 즉시 호출, bind는 새로운 함수를 생성할 뿐 호출을 담당하지는 않는다.
 
 ```javascript
 function a(x, y, z) {
