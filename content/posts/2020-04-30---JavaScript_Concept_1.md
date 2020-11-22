@@ -53,8 +53,10 @@ Reference Type은 값이 저장된 주소 값을 할당(참조)한다.
 ---
 
 ## Function
-
-<br/>
+* Hoisting
+* 함수 표현식의 순서
+* Function Scope, Execution Context
+* CallBack function
 
 ### Hoisting
 
@@ -144,8 +146,6 @@ console.log(sum(1, 2));
 함수 표현식을 사용하면 모두가 예상하는 결과가 출력된다!<br/>
 따라서 웬만하면 함수 표현식을 사용하자!<br/>
 
-<br/>
-
 ### Function Scope, Execution Context
 
 <br/>
@@ -216,8 +216,6 @@ setInterval(() =>{
 setInterval은 정해진 주기마다 Callback 함수를 실행하며,  첫 번째 인자는 Callback func, 두 번째 인자는 milliseconds이다.<br/>
 
 따라서 위 코드는 Arrow function으로 정의한 콜백 함수를 setInterval에게 제어권을 넘기며 주기인 1초마다 콜백 함수를 실행하고 그 결과를 나에게 돌려주는 것이다.<br/>
-
-<br/>
 
 ### 콜백 함수의 특징
 * 다른 함수(a)의 인자로 콜백 함수(b)를 전달하면, a가 b의 제어권을 갖게 된다.
