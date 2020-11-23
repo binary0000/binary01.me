@@ -28,7 +28,7 @@ Class는 많이 들어봤지만, Prototype이란 개념은 생소하고 활용�
 
 <img src= "/categoryImage/JavaScript/prototype_1.png" width="500px"><br/>
 
-new 연산자를 써서 생성자(constructor)로 instance를 만들면 **생성자 함수의 prototype이라고 하는 속성(property)가 instance의 __proto__라는 속성(property)에 전달이 된다.**<br/>
+new 연산자를 써서 생성자(constructor)로 instance를 만들면 **생성자 함수의 prototype이라고 하는 속성(property)가 instance의 \__proto__라는 속성(property)에 전달이 된다.**<br/>
 
 즉, 생성자 함수의 prototype과 instance의 \__proto__는 같은 객체를 참조한다.<br/>
 따라서 생략되어 오른쪽 그림과 같이 작동하는 것처럼 보일 수 있다.<br/>
