@@ -84,6 +84,7 @@ a.b();
 즉, 위 사진과 같이 객체 a 내부에 객체 b가 있을 경우 **this는 객체 a**를 가리킨다.
 
 #### 추가예시
+
 ```javascript
 var a = {
 	b: {
@@ -94,6 +95,7 @@ var a = {
 }
 a.b.c();
 ```
+
 위 예시에서의 this는 메소드명 앞인 ```a.b```가 된다!
 
 <br/>
@@ -176,14 +178,14 @@ c(1, 2, 3);
 
 var d = a.bind(b, 1, 2);
 d(3);
-```
 
-#### Result
-```shell
+/*
+result
 { c: 'binary01.me' } 1 2 3
 { c: 'binary01.me' } 1 2 3
 { c: 'binary01.me' } 1 2 3
 { c: 'binary01.me' } 1 2 3
+*/
 ```
 
 <br/>
