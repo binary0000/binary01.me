@@ -67,7 +67,7 @@ console.log(Person.getInfomations(jinsoo)); //진수, 28
 ```
 
 위의 예제에서 Person 함수의 생성자와 new 연산자로 `jinsoo`을 만들었다.<br/>
-다음으로 `console.log`를 찍어보며 prototype method와 static method의 차이를 확인해보자!<br/>
+`console.log`를 찍어보며 prototype method와 static method의 차이를 확인해보자!<br/>
 
 (강의에서는 ES6 이전의 문법을 다루어 나도 똑같이 class를 사용하지 않고 함수로 클래스를 만들었다.)<br/>
 
