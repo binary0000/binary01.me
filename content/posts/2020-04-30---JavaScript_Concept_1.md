@@ -71,7 +71,7 @@ console.log(test2());
 function test1 () {
 	return 'binary01.me';
 }
-const test2 = () => {
+var test2 = () => {
     return 'binary01.me';
 }
 ```
@@ -84,7 +84,7 @@ test1은 실행이 되지만, test2는 오류가 날 것이다.<br/>
 function test1 () {
 	return 'binary01.me';
 }
-const test2;
+var test2;
 console.log(test1());
 console.log(test2());
 
