@@ -37,7 +37,7 @@ ___React___, ___JavaScript___, ___NodeJS___, ___GraphQL___, ___Apollo___, ___AWS
 
 **2019. 07 ~ 2019. 08 &nbsp &nbsp크로니아이티 / InternShip**
 
-- IoT 플랫폼인 OneM2M을 매주 학습하고, 다른 학생 및 교수님들과 세미나를 진행하였습니다.
+- IoT 플랫폼인 OneM2M을 매주 학습하고 다른 학생 및 교수님들과 세미나를 진행하였습니다.
 
 ---
 
@@ -63,7 +63,7 @@ ___React___, ___JavaScript___, ___NodeJS___, ___GraphQL___, ___Apollo___, ___AWS
 <br/>
 
 **1. &nbspLoRaWAN 기반 블록체인 차량정보 관리 체계의 설계 및 구현**
-- LoRa를 활용하여, 신뢰성 있는 차량 정보를 수집하고, 이를 블록체인으로 관리할 수 있는 시스템을 구축
+- LoRa를 활용하여, 신뢰성 있는 차량 정보를 수집하고 이를 블록체인으로 관리할 수 있는 시스템을 구축
 - 고유 번호 - 106329679 &nbsp&nbsp[Link](http://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ff3fa5ed2256b1546aae8a972f9116fb)
 
 **2. 전자제어 기반 잠금장치 시스템의 설계 및 구현**
@@ -140,5 +140,3 @@ ___React___, ___JavaScript___, ___NodeJS___, ___GraphQL___, ___Apollo___, ___AWS
 - **크롤링을 이용한 포털사이트 검색순위 종합시스템**
     -  Project Period : 2018-06 ~ 2018-06
     -  Used Things : Java, Swing
-
-
