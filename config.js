@@ -48,7 +48,7 @@ module.exports = {
       rss: 'rss.xml',
       vkontakte: '',
       linkedin: '',
-      instagram: 'jinsoo8457',
+      instagram: '01_binary',
       line: '',
       gitlab: '',
       weibo: '',

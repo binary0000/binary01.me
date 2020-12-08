@@ -8,7 +8,7 @@ template: "page"
 <img src="../../static/icons/github.svg" width="27px" align="left" hspace= "18">
 <a href="https://github.com/dgujs">github.com/dgujs</a><br/><br/>
 <img src="../../static/icons/instagram.svg" width="27px" align="left" hspace= "18">
-<a href="https://instagram.com/jinsoo8457">instagram.com/jinsoo8457</a><br/>
+<a href="https://instagram.com/01_binary">instagram.com/01_binary</a><br/>
 
 ### 안녕하세요 다양한 분야에 관심이 있어<br/> 스스로 지속적으로 발전하는 개발자 이진수입니다!
 
