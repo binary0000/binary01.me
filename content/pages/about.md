@@ -9,7 +9,6 @@ template: "page"
 <a href="https://github.com/dgujs">github.com/dgujs</a><br/><br/>
 <img src="../../static/icons/instagram.svg" width="27px" align="left" hspace= "18">
 <a href="https://instagram.com/jinsoo8457">instagram.com/jinsoo8457</a><br/>
-<!-- 🍆🚀 -->
 
 ### 안녕하세요 다양한 분야에 관심이 있어<br/> 스스로 지속적으로 발전하는 개발자 이진수입니다!
 
@@ -19,7 +18,7 @@ template: "page"
 
 <br/>
 
-___JavaScript___, ___NodeJS___, ___GraphQL___, ___Apollo___, ___AWS___, ___C___, ___C++___,  ___Java___, ___Python___, ___SQL___
+___React___, ___JavaScript___, ___NodeJS___, ___GraphQL___, ___Apollo___, ___AWS___, ___C___, ___C++___,  ___Java___, ___Python___, ___SQL___
 
 ---
 
@@ -27,14 +26,16 @@ ___JavaScript___, ___NodeJS___, ___GraphQL___, ___Apollo___, ___AWS___, ___C___,
 
 <br/>
 
-**2020. 01 ~ 2020. 11 &nbsp&nbsp&nbsp신세계 I&C / Cloud Architect**
+**2020. 12 ~ &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 아이겐코리아 / Front-End 개발자**
 
-**2019. 08 ~ 2019. 11 &nbsp&nbsp&nbsp델리(Dely) / Back-End 개발자**
+**2020. 01 ~ 2020. 11 &nbsp &nbsp신세계 I&C / Cloud Architect**
+
+**2019. 08 ~ 2019. 11 &nbsp &nbsp델리(Dely) / Back-End 개발자**
 
 - 공유 배송 플랫폼인 델리에서 Back-End 개발을 진행하였으며, JavaScript로 작성하였습니다.
 - AWS, Naver Cloud Platform 등 여러 API를 활용한 경험이 있습니다.
 
-**2019. 07 ~ 2019. 08 &nbsp&nbsp&nbsp크로니아이티 / InternShip**
+**2019. 07 ~ 2019. 08 &nbsp &nbsp크로니아이티 / InternShip**
 
 - IoT 플랫폼인 OneM2M을 매주 학습하고, 다른 학생 및 교수님들과 세미나를 진행하였습니다.
 
