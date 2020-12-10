@@ -31,7 +31,7 @@ Class란 무엇일까? 그림과 함께 한 줄로 간단히 설명해보겠다!
 
 instance의 개별적인 동작이 아니라 공통적인 판단을 필요로 하는 경우에 static methods, static properties를 사용한다.<br/>
 
-또한, instance에서는 (prototype) methods에 바로 접근이 가능하지만, static methods, static properties는 바로 접근이 불가능하다.<br/>
+또한, instance에서는 (prototype) methods에 바로 접근이 가능하지만 static methods, static properties는 바로 접근이 불가능하다.<br/>
 
 **예제**
 ```javascript
