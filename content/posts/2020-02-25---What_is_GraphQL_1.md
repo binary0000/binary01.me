@@ -1,5 +1,5 @@
 ---
-title: GraphQL이란? -1
+title: GraphQL이란? - REST API부터 알아보자 !
 date: "2020-02-25T23:46:37.121Z"
 template: "post"
 draft: false

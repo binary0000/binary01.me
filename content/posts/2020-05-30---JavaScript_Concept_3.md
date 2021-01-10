@@ -1,5 +1,5 @@
 ---
-title: JavaScript 핵심 개념 정리 -3
+title: JavaScript 핵심 개념 정리 - Closure
 date: "2020-05-30T23:46:37.121Z"
 template: "post"
 draft: false

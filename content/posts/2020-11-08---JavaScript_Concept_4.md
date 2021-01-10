@@ -1,5 +1,5 @@
 ---
-title: JavaScript 핵심 개념 정리 -4
+title: JavaScript 핵심 개념 정리 - Prototype
 date: "2020-11-08T23:46:37.121Z"
 template: "post"
 draft: false

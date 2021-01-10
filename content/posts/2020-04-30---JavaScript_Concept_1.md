@@ -1,5 +1,5 @@
 ---
-title: JavaScript 핵심 개념 정리 -1
+title: JavaScript 핵심 개념 정리 - 자료형과 함수 
 date: "2020-04-30T23:46:37.121Z"
 template: "post"
 draft: false

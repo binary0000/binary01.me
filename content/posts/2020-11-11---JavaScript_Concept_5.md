@@ -1,5 +1,5 @@
 ---
-title: JavaScript 핵심 개념 정리 -5
+title: JavaScript 핵심 개념 정리 - Class
 date: "2020-11-11T23:46:37.121Z"
 template: "post"
 draft: false

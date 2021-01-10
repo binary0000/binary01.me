@@ -1,5 +1,5 @@
 ---
-title: GraphQL이란? -2
+title: GraphQL이란? - 간단한 Query 작성 !
 date: "2020-02-27T23:46:37.121Z"
 template: "post"
 draft: false
