@@ -41,6 +41,14 @@ ___React___, ___JavaScript___, ___NodeJS___, ___GraphQL___, ___Apollo___, ___AWS
 
 ---
 
+## Activities
+
+<br/>
+
+**2021. 01 ~ &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp D&D 4기 / Front-End 개발자**
+
+---
+
 ## Education
 
 <br/>
