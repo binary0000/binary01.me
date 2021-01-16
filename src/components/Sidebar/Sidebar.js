@@ -1,13 +1,13 @@
 // @flow strict
 import React from 'react';
 import Author from './Author';
-import Themebutton from './Themebutton/Themebutton';
+import Themebutton from './Themebutton';
 import Contacts from './Contacts';
 import Copyright from './Copyright';
 import Menu from './Menu';
 import styles from './Sidebar.module.scss';
-import { useSiteMetadata } from '../../hooks';
-import { useCategoriesList } from '../../hooks';
+import { useSiteMetadata, useCategoriesList } from '../../hooks';
+
 
 type Props = {
   isIndex?: boolean,

@@ -4,16 +4,16 @@ import ThemeContext from '../../../context/ThemeContext';
 
 
 const Themebutton = () => {
-    const { isDarkMode, setDarkMode } = useContext(ThemeContext);
+  const { isDarkMode, setDarkMode } = useContext(ThemeContext);
 
-    return (
+  return (
         <DarkModeToggle
             onChange={() => setDarkMode()}
             checked={isDarkMode}
             size={75}
             speed={1}
         />
-    );
+  );
 };
 
 export default Themebutton;
