@@ -8,6 +8,7 @@ category: "AWS"
 tags:
   - "AWS"
   - "MAP"
+  - "Business"
   - "Service"
 description: "AWS의 서비스는 Lambda, EC2, ELB(Elastic Load Balancing), RDS, S3 등이 있으며 그 개수는 약 170개이다..."
 ---
