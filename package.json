@@ -4,7 +4,7 @@
   "description": "Jinsoo's Blog using gatsby lumen",
   "main": "n/a",
   "scripts": {
-    "develop": "yarn run clean && gatsby develop",
+    "start": "yarn run clean && gatsby develop",
     "build": "yarn run clean && gatsby build",
     "deploy": "pm2 delete binary01.me && yarn run clean && gatsby build && pm2 start deploy.config.js",
     "first-deploy": "yarn run clean && gatsby build && pm2 start deploy.config.js",
