@@ -6,7 +6,7 @@
   "scripts": {
     "start": "yarn run clean && gatsby develop",
     "build": "yarn run clean && gatsby build",
-    "deploy": "pm2 delete binary01.me && yarn run clean && gatsby build && pm2 start deploy.config.js",
+    "deploy": "pm2 delete binary01.me && yarn run clean && gatsby build && pm2 reload deploy.config.js",
     "first-deploy": "yarn run clean && gatsby build && pm2 start deploy.config.js",
     "clean": "rimraf .cache public",
     "flow": "flow",
