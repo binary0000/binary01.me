@@ -30,14 +30,28 @@ ___React___, ___JavaScript___, ___NodeJS___, ___GraphQL___, ___Apollo___, ___AWS
 
 **2020. 01 ~ 2020. 11 &nbsp &nbsp신세계 I&C / Cloud Architect**
 
+- 마이크로 사이트 개발
+    - AWS Competency 취득을 위한 마이크로 사이트 개발
+    - 정적 사이트 생성기인 Gatsby(React + GraphQL)로 개발
+    - AWS Retail Competency 심사 항목 대상으로 해당 사이트 활용
+    - 관련 기사 : https://www.shinsegaegroupinside.com/44056/
+
+- Public Cloud 환경에서 Infra 운영
+    - AWS Console 상에서의 네이밍 룰 정의
+    - 고객의 요청에 따라 Security Group Open 및 방화벽 정책 제어
+    - AWS 서비스 사용량에 따른 비용 최적화
+    - 기존 고객사의 아키텍처를 바탕으로 AWS 아키텍처 제작
+    - AWS Lambda를 활용한 보안 솔루션 자동설치
+    - AWS EKS HPA 설정 및 Deployment yaml작성 및 배포
+
 **2019. 08 ~ 2019. 11 &nbsp &nbsp델리(Dely) / Back-End 개발자**
 
-- 공유 배송 플랫폼인 델리에서 Back-End 개발을 진행하였으며, JavaScript로 작성하였습니다.
-- AWS, Naver Cloud Platform 등 여러 API를 활용한 경험이 있습니다.
+- 공유 배송 플랫폼인 델리에서 Back-End 개발을 진행하였으며, JavaScript로 작성
+- AWS, Naver Cloud Platform 등 여러 API를 활용한 경험
 
 **2019. 07 ~ 2019. 08 &nbsp &nbsp크로니아이티 / InternShip**
 
-- IoT 플랫폼인 OneM2M을 매주 학습하고 다른 학생 및 교수님들과 세미나를 진행하였습니다.
+- IoT 플랫폼인 OneM2M을 매주 학습하고 다른 학생 및 교수님들과 세미나를 진행
 
 ---
 
@@ -45,7 +59,11 @@ ___React___, ___JavaScript___, ___NodeJS___, ___GraphQL___, ___Apollo___, ___AWS
 
 <br/>
 
-**2021. 01 ~ &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp D&D 4기 / Front-End 개발자**
+**2021. 01 ~ 2021. 03 &nbsp&nbspD&D 4기 / Front-End 개발자**
+
+- [쫌싸!](https://zzomssa.com)
+- Front-End 개발자로 참여해 소비자들의 현명한 소비를 위한 서비스 '쫌싸!' 개발
+- React, JS, Context API, Tailwind을 활용하여 반응형으로 PC, Mobile용 사이트 개발
 
 ---
 
@@ -83,6 +101,13 @@ ___React___, ___JavaScript___, ___NodeJS___, ___GraphQL___, ___Apollo___, ___AWS
 ---
 
 ## Projects
+
+<br/>
+
+**2021**
+- **소비자들의 현명한 소비를 위한 서비스 '쫌싸!' 제작**
+    - Project Period : 2021-01 ~ 2021-03
+    - Used Things : React, Context API, Tailwind, AWS
 
 <br/>
 
