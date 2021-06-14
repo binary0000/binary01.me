@@ -79,6 +79,7 @@ ___React___, ___JavaScript___, ___NodeJS___, ___GraphQL___, ___Apollo___, ___AWS
 
 <br/>
 
+* AWS Solutions Architect – Associate
 * AWS Cloud Practitioner
 * 정보처리기사
 
