@@ -18,7 +18,7 @@ template: "page"
 
 <br/>
 
-___React___, ___JavaScript___, ___NodeJS___, ___GraphQL___, ___Apollo___, ___AWS___, ___C___, ___C++___,  ___Java___, ___Python___, ___SQL___
+___React___, ___JavaScript___, ___AWS___, ___NodeJS___, ___GraphQL___, ___Java___, ___Python___, ___SQL___
 
 ---
 
@@ -113,10 +113,6 @@ ___React___, ___JavaScript___, ___NodeJS___, ___GraphQL___, ___Apollo___, ___AWS
 <br/>
 
 **2020**
-- **회사 홍보용 Micro Site 제작**
-    - Project Period : 2020-05 ~ 2020-06
-    - Used Things : React, GraphQL, JavaScript
-  
 - **Gatsby를 활용한 개인 블로그 제작**
     - Project Period : 2020-01 ~ 2020-02
     - Used Things : React, GraphQL, JavaScript
