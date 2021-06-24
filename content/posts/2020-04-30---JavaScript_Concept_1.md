@@ -40,9 +40,9 @@ Primitive Type은 값을 그대로 할당한다.
 
 ### Reference Type
 * Object
-	* Array
-	* Function
-	* RegExp
+* Array
+* Function
+* RegExp
 
 Reference Type은 값이 저장된 주소 값을 할당(참조)한다.
 
