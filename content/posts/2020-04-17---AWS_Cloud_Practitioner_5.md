@@ -7,7 +7,7 @@ slug: "AWS_Cloud_Practitioner_5"
 category: "AWS"
 tags:
   - "AWS"
-  - "Cloud_Practitioner"
+  - "Cloud Practitioner"
   - "Certificate"
 description: "이번 포스팅은 Module 5 : AWS 플랫폼의 기본 보안 및 규정 준수 측면과 공동 보안 모델 설명을 정리한다."
 ---

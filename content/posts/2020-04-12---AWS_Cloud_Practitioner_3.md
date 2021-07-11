@@ -7,7 +7,7 @@ slug: "AWS_Cloud_Practitioner_3"
 category: "AWS"
 tags:
   - "AWS"
-  - "Cloud_Practitioner"
+  - "Cloud Practitioner"
   - "Certificate"
 description: "이번에 정리할 내용은 Module 3으로 AWS 플랫폼의 주요 서비스 및 관련 일반 사용 사례를 설명한다!"
 ---

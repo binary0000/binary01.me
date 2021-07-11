@@ -7,7 +7,7 @@ slug: "AWS_Cloud_Practitioner_End"
 category: "AWS"
 tags:
   - "AWS"
-  - "Cloud_Practitioner"
+  - "Cloud Practitioner"
   - "Certificate"
 description: "AWS Cloud Practitioner 자격증 시험의 후기에 관해 이야기하고자 한다!"
 ---

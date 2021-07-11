@@ -7,7 +7,7 @@ slug: "AWS_Cloud_Practitioner_2"
 category: "AWS"
 tags:
   - "AWS"
-  - "Cloud_Practitioner"
+  - "Cloud Practitioner"
   - "Certificate"
 description: "저번 포스팅에 이어 오늘은 Module 2를 정리한다!"
 ---

@@ -7,7 +7,7 @@ slug: "AWS_Cloud_Practitioner_1"
 category: "AWS"
 tags:
   - "AWS"
-  - "Cloud_Practitioner"
+  - "Cloud Practitioner"
   - "Certificate"
 description: "AWS에서 제공하는 무료 강의 Cloud Practitioner Essentials를 수강하고 정리한 내용을 포스팅할 예정이다!"
 ---

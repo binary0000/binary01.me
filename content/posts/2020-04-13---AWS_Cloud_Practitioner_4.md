@@ -7,7 +7,7 @@ slug: "AWS_Cloud_Practitioner_4"
 category: "AWS"
 tags:
   - "AWS"
-  - "Cloud_Practitioner"
+  - "Cloud Practitioner"
   - "Certificate"
 description: "이번 포스팅은 Module 4 : AWS 아키텍처를 짧게 정리한다."
 ---

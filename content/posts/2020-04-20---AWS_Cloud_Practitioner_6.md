@@ -7,7 +7,7 @@ slug: "AWS_Cloud_Practitioner_6"
 category: "AWS"
 tags:
   - "AWS"
-  - "Cloud_Practitioner"
+  - "Cloud Practitioner"
   - "Certificate"
 description: "이번 포스팅은 Module 6 : 요금 및 지원을 정리한다."
 ---

@@ -28,6 +28,33 @@ ___React___, ___JavaScript___, ___AWS___, ___NodeJS___, ___GraphQL___, ___Java__
 
 **2020. 12 ~ &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 아이겐코리아 / Front-End 개발자**
 
+- 어드민 웹 리팩토링 및 유지보수
+    - 어드민 웹에 대한 전반적인 유지보수 및 기능 추가
+    - React와 상태 관리 라이브러리 Redux 활용
+    - Class Component를 Functional Component로 리팩토링
+    - Bootstrap 제거 및 레이아웃 재설계
+    - locale를 활용한 국제화
+
+- Embeddable React 개발
+    - 타 사이트에 Script 방식으로 삽입할 수 있는 봇 형태의 UI 개발
+    - indexed DB를 활용한 기능 Trigger 제작
+    - 모바일 웹 형태의 UI 제작
+
+- puppeteer를 활용한 네이버 쇼핑 크롤링
+    - puppeteer를 활용하여 각 검색어에 대한 검색 결과를 크롤링
+    - 이미지를 크롤링하여 RGB 또는 Hex Code로 변환
+    - 각 검색 결과의 네이버 쇼핑 리뷰 크롤링
+    - tsv, csv 파일로 변환
+
+- ELB 트래픽 로그를 활용한 기능 추가
+    - Lambda로 ELB의 로그를 확인하여 호출된 도메인의 Query param 파싱 후, DB에 적재
+    - 스프링 Scheduler Cron를 활용한 일배치 작업
+
+- AWS Lambda를 활용한 데이터 파싱, S3 적재
+    - AWS Lambda에서 NodeJS 환경으로 S3 파일을 Read한 후 파싱
+    - Eventbridge를 활용하여 Target이 업로드 될 때마다 Target를 파싱
+    - 파싱된 결과를 S3에 csv로 적재
+
 **2020. 01 ~ 2020. 11 &nbsp &nbsp신세계 I&C / Cloud Architect**
 
 - 마이크로 사이트 개발
