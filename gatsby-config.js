@@ -11,36 +11,58 @@ module.exports = {
     subtitle: siteConfig.subtitle,
     copyright: siteConfig.copyright,
     menu: siteConfig.menu,
-    author: siteConfig.author
+    author: siteConfig.author,
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-htaccess',
+      options: {
+        RewriteBase: true,
+        https: true,
+        www: true,
+        SymLinksIfOwnerMatch: true,
+        host: 'binary01.me', // if 'www' is set to 'false', be sure to also remove it here!
+        ErrorDocument: `
+        ErrorDocument 401 /error_pages/401.html
+        ErrorDocument 404 /error_pages/404.html
+        ErrorDocument 500 /error_pages/500.html
+      `,
+        redirect: [
+          'RewriteRule ^not-existing-url/?$ /existing-url [R=301,L,NE]',
+          {
+            from: 'http://binary01.me',
+            to: 'https://binary01.me',
+          }
+        ]
+      },
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/content`,
-        name: 'pages'
-      }
+        name: 'pages',
+      },
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/static/media`,
-        name: 'media'
-      }
+        name: 'media',
+      },
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'css',
-        path: `${__dirname}/static/css`
-      }
+        path: `${__dirname}/static/css`,
+      },
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'assets',
-        path: `${__dirname}/static`
-      }
+        path: `${__dirname}/static`,
+      },
     },
     {
       resolve: 'gatsby-plugin-feed',
@@ -56,18 +78,17 @@ module.exports = {
             }
           }
         `,
-        feeds: [{
-          serialize: ({ query: { site, allMarkdownRemark } }) => (
-            allMarkdownRemark.edges.map((edge) => ({
+        feeds: [
+          {
+            serialize: ({ query: { site, allMarkdownRemark } }) => allMarkdownRemark.edges.map((edge) => ({
               ...edge.node.frontmatter,
               description: edge.node.frontmatter.description,
               date: edge.node.frontmatter.date,
               url: site.siteMetadata.site_url + edge.node.fields.slug,
               guid: site.siteMetadata.site_url + edge.node.fields.slug,
-              custom_elements: [{ 'content:encoded': edge.node.html }]
-            }))
-          ),
-          query: `
+              custom_elements: [{ 'content:encoded': edge.node.html }],
+            })),
+            query: `
               {
                 allMarkdownRemark(
                   limit: 1000,
@@ -92,10 +113,11 @@ module.exports = {
                 }
               }
             `,
-          output: '/rss.xml',
-          title: siteConfig.title
-        }]
-      }
+            output: '/rss.xml',
+            title: siteConfig.title,
+          },
+        ],
+      },
     },
     {
       resolve: 'gatsby-transformer-remark',
@@ -105,8 +127,8 @@ module.exports = {
           {
             resolve: 'gatsby-remark-katex',
             options: {
-              strict: 'ignore'
-            }
+              strict: 'ignore',
+            },
           },
           {
             resolve: 'gatsby-remark-images',
@@ -114,19 +136,19 @@ module.exports = {
               maxWidth: 960,
               withWebp: true,
               ignoreFileExtensions: [],
-            }
+            },
           },
           {
             resolve: 'gatsby-remark-responsive-iframe',
-            options: { wrapperStyle: 'margin-bottom: 1.0725rem' }
+            options: { wrapperStyle: 'margin-bottom: 1.0725rem' },
           },
           'gatsby-remark-autolink-headers',
           'gatsby-remark-prismjs',
           'gatsby-remark-copy-linked-files',
           'gatsby-remark-smartypants',
-          'gatsby-remark-external-links'
-        ]
-      }
+          'gatsby-remark-external-links',
+        ],
+      },
     },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
@@ -157,9 +179,9 @@ module.exports = {
         serialize: ({ site, allSitePage }) => allSitePage.edges.map((edge) => ({
           url: site.siteMetadata.siteUrl + edge.node.path,
           changefreq: 'daily',
-          priority: 0.7
-        }))
-      }
+          priority: 0.7,
+        })),
+      },
     },
     {
       resolve: 'gatsby-plugin-manifest',
@@ -170,7 +192,7 @@ module.exports = {
         background_color: '#FFF',
         theme_color: '#F7A046',
         display: 'standalone',
-        icon: 'static/myfavicon.png'
+        icon: 'static/myfavicon.png',
       },
     },
     'gatsby-plugin-offline',
@@ -182,8 +204,8 @@ module.exports = {
         postCssPlugins: [...postCssPlugins],
         cssLoaderOptions: {
           camelCase: false,
-        }
-      }
+        },
+      },
     },
     'gatsby-plugin-flow',
     'gatsby-plugin-optimize-svgs',
@@ -191,14 +213,14 @@ module.exports = {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
         trackingId: 'UA-158786877-1',
-        head: true
+        head: true,
       },
     },
     {
       resolve: 'gatsby-plugin-disqus',
       options: {
-        shortname: 'binary01'
-      }
+        shortname: 'binary01',
+      },
     },
-  ]
+  ],
 };
