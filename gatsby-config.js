@@ -19,7 +19,7 @@ module.exports = {
       options: {
         RewriteBase: true,
         https: true,
-        www: true,
+        www: false,
         SymLinksIfOwnerMatch: true,
         host: 'binary01.me', // if 'www' is set to 'false', be sure to also remove it here!
         ErrorDocument: `
