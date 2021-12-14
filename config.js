@@ -40,7 +40,7 @@ module.exports = {
     photo: '/myfavicon.png',
     bio: '@binary',
     contacts: {
-      email: 'admin@bianry01.me',
+      email: 'binary01@kakao.com',
       facebook: '',
       telegram: '',
       twitter: '',
