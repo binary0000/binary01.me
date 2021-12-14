@@ -6,6 +6,7 @@
   "scripts": {
     "start": "yarn run clean && gatsby develop",
     "build": "yarn run clean && gatsby build",
+    "build:netlify": "CI= gatsby build",
     "deploy": "gatsby build && pm2 reload deploy.config.js",
     "first-deploy": "yarn run clean && gatsby build && pm2 start deploy.config.js",
     "clean": "rimraf .cache public",
