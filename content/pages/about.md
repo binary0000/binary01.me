@@ -27,7 +27,13 @@ React, JavaScript, TypeScript, AWS, NodeJS, GraphQL, Java, Python, SQL, C++
 <br/>
 
 <details>
-<summary>2020. 12 ~ &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp아이겐코리아 / Front-End 개발자</summary>
+
+<summary>2022. 03 ~ &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp핀다 / Front-End 개발자</summary>
+</details>
+
+<details>
+
+<summary>2020. 12 ~ 2022. 02 &nbsp &nbsp아이겐코리아 / Front-End 개발자</summary>
 
 - 어드민 웹 리팩토링 및 유지보수
 
