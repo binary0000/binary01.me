@@ -89,7 +89,7 @@ React, JavaScript, TypeScript, AWS, NodeJS, GraphQL, Java, Python, SQL, C++
 </details>
 
 <details>
-<summary>2019. 08 ~ 2019. 11 &nbsp &nbsp델리(Dely) / Back-End 개발자</summary>
+<summary>2019. 08 ~ 2019. 11 &nbsp &nbsp델리(Dely) / Back-End 개발자 InternShip</summary>
 
 - 공유 배송 플랫폼인 델리에서 Back-End 개발을 진행하였으며, JavaScript로 작성
 - AWS, Naver Cloud Platform 등 여러 API를 활용한 경험
