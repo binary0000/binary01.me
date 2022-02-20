@@ -6,7 +6,7 @@ template: 'page'
 <img src="../../static/icons/email.svg" width="27px" align="left" hspace= "18">
 <a href="mailto:binary01@kakao.com">binary01@kakao.com</a><br/><br/>
 <img src="../../static/icons/github.svg" width="27px" align="left" hspace= "18">
-<a href="https://github.com/binary0000">github.com/binary0000</a><br/><br/>
+<a href="https://github.com/01-binary">github.com/01-binary</a><br/><br/>
 <img src="../../static/icons/instagram.svg" width="27px" align="left" hspace= "18">
 <a href="https://instagram.com/01_binary">instagram.com/01_binary</a><br/>
 
