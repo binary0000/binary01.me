@@ -31,6 +31,10 @@ module.exports = {
       path: '/category/java-script'
     },
     {
+      label: 'ETC',
+      path: '/category/etc'
+    },
+    {
       label: 'About me',
       path: '/pages/about'
     }

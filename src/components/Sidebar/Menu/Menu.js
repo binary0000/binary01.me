@@ -11,12 +11,11 @@ type Props = {
   }[],
   categories: {
     fieldValue: string,
-    totalCount: number
-  }[]
+    totalCount: number,
+  }[],
 };
 
 const menuCountMatch = (menu, categories) => {
-
   let idx;
   let all = 0;
 
@@ -28,11 +27,9 @@ const menuCountMatch = (menu, categories) => {
   }
 
   menu[menu.findIndex((item) => item.label === 'ALL')].count = all;
-
 };
 
 const Menu = ({ menu, categories }: Props) => {
-
   menuCountMatch(menu, categories);
 
   return (
@@ -52,6 +49,6 @@ const Menu = ({ menu, categories }: Props) => {
       </ul>
     </nav>
   );
-}
+};
 
 export default Menu;
