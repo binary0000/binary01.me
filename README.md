@@ -1,5 +1,5 @@
 <h1 align="center">
-    <a target="_blank" href="https://github.com/dgujs/binary01.me/" ><img alt="binary01" title="binary01" src="https://github.com/dgujs/binary01.me/blob/master/static/myfavicon.png" width="140"> </br></a>
+    <a target="_blank" href="https://github.com/01-binary/binary01.me/" ><img alt="binary01" title="binary01" src="https://github.com/01-binary/binary01.me/blob/master/static/myfavicon.png" width="140"> </br></a>
     binary01.me Using Lumen
 </h1>
 
@@ -12,29 +12,31 @@
 </p>
 
 ## Table of contents
-+ [Features](http://github.com/alxshelepenok/gatsby-starter-lumen#features)
-+ [Web Performance Tests](http://github.com/alxshelepenok/gatsby-starter-lumen#web-performance-tests)
-+ [Quick Start](http://github.com/alxshelepenok/gatsby-starter-lumen#quick-start)
-+ [Deploy with Netlify](http://github.com/alxshelepenok/gatsby-starter-lumen#deploy-with-netlify)
-+ [Folder Structure](http://github.com/alxshelepenok/gatsby-starter-lumen#folder-structure)
-+ [Related](http://github.com/alxshelepenok/gatsby-starter-lumen#related)
-+ [Contributors](http://github.com/alxshelepenok/gatsby-starter-lumen#contributors)
-+ [Backers](http://github.com/alxshelepenok/gatsby-starter-lumen#backers)
-+ [Sponsors](http://github.com/alxshelepenok/gatsby-starter-lumen#sponsors)
-+ [Credits](http://github.com/alxshelepenok/gatsby-starter-lumen#credits)
-+ [License](http://github.com/alxshelepenok/gatsby-starter-lumen#license)
+
+- [Features](http://github.com/alxshelepenok/gatsby-starter-lumen#features)
+- [Web Performance Tests](http://github.com/alxshelepenok/gatsby-starter-lumen#web-performance-tests)
+- [Quick Start](http://github.com/alxshelepenok/gatsby-starter-lumen#quick-start)
+- [Deploy with Netlify](http://github.com/alxshelepenok/gatsby-starter-lumen#deploy-with-netlify)
+- [Folder Structure](http://github.com/alxshelepenok/gatsby-starter-lumen#folder-structure)
+- [Related](http://github.com/alxshelepenok/gatsby-starter-lumen#related)
+- [Contributors](http://github.com/alxshelepenok/gatsby-starter-lumen#contributors)
+- [Backers](http://github.com/alxshelepenok/gatsby-starter-lumen#backers)
+- [Sponsors](http://github.com/alxshelepenok/gatsby-starter-lumen#sponsors)
+- [Credits](http://github.com/alxshelepenok/gatsby-starter-lumen#credits)
+- [License](http://github.com/alxshelepenok/gatsby-starter-lumen#license)
 
 ## Features
-+ [Lost Grid](http://lostgrid.org).
-+ [Modern font stack](https://bitsofco.de/the-new-system-font-stack).
-+ Beautiful typography inspired by [matejlatin/Gutenberg](https://github.com/matejlatin/Gutenberg).
-+ Syntax highlighting in code blocks using [PrismJS](http://prismjs.com).
-+ [Mobile-First](https://medium.com/@mrmrs_/mobile-first-css-48bc4cc3f60f) approach in development.
-+ Archive organized by tags and categories.
-+ Pagination support.
-+ Google Analytics.
-+ Disqus Comments.
-+ [Flow](https://flow.org/) static type checking.
+
+- [Lost Grid](http://lostgrid.org).
+- [Modern font stack](https://bitsofco.de/the-new-system-font-stack).
+- Beautiful typography inspired by [matejlatin/Gutenberg](https://github.com/matejlatin/Gutenberg).
+- Syntax highlighting in code blocks using [PrismJS](http://prismjs.com).
+- [Mobile-First](https://medium.com/@mrmrs_/mobile-first-css-48bc4cc3f60f) approach in development.
+- Archive organized by tags and categories.
+- Pagination support.
+- Google Analytics.
+- Disqus Comments.
+- [Flow](https://flow.org/) static type checking.
 
 ## Folder Structure
 
@@ -77,9 +79,11 @@
 ```
 
 ## Related
+
 [Statinamic port](https://github.com/thangngoc89/statinamic-theme-lumen) by [Khoa Nguyen](https://github.com/thangngoc89)
 
 ## License
+
 The MIT License (MIT)
 
 Copyright (c) 2016-2020 Alexander Shelepenok

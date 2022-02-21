@@ -48,7 +48,7 @@ module.exports = {
       facebook: '',
       telegram: '',
       twitter: '',
-      github: 'dgujs',
+      github: '01-binary',
       rss: 'rss.xml',
       vkontakte: '',
       linkedin: '',
