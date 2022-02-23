@@ -35,36 +35,51 @@ React, JavaScript, TypeScript, AWS, NodeJS, GraphQL, Java, Python, SQL, C++
 
 <summary>2020. 12 ~ 2022. 02 &nbsp &nbsp아이겐코리아 / Front-End 개발자</summary>
 
-- 어드민 웹 리팩토링 및 유지보수
-
-  - 어드민 웹에 대한 전반적인 유지보수 및 기능 추가
-  - React와 상태 관리 라이브러리 Redux 활용
-  - Class Component를 Functional Component로 리팩토링
-  - Bootstrap 제거 및 레이아웃 재설계
-  - locale를 활용한 국제화
-
 - Embeddable React 개발
 
   - 타 사이트에 Script 방식으로 삽입할 수 있는 봇 형태의 UI 개발
-  - indexed DB를 활용한 기능 Trigger 제작
   - 모바일 웹 형태의 UI 제작
+  - indexed DB를 활용하여 Script가 삽입된 타 사이트 페이지의 정보를 기록
+  - 페이지의 정보를 토대로 호출할 추천 리스트 API를 선별하는 Trigger 기능 제작
+  - React, Redux, React hooks, TypeScript, SCSS, Atomic Design System
+
+- 어드민 웹 리팩토링 및 유지보수
+
+  - 고객사에게 데이터 추천과 관련된 모든 정보를 제공하기 위한 백오피스(어드민) 웹에 대한 전반적인 유지보수 및 리팩토링
+  - React와 상태 관리 라이브러리 Redux, 비동기처리를 위한 Redux-Saga 활용
+  - Component 비즈니스 로직을 Custom Hooks에서 처리
+  - Class Component를 Functional Component로 리팩토링
+  - Global CSS (Bootstrap 등) 제거 및 레이아웃 재설계
+  - locale(react-intl)를 활용한 국제화
+  - 추천 리스트에 따라 다른 데모 View 제공
+  - JavaScript에서 TypeScript로 마이그레이션
+  - Antd와 Task runner gulp를 활용한 Dark Mode 제작
+  - AWS Code Pipeline를 활용한 프론트엔드 CI / CD 구축 및 배포
+  - AWS Certificate Manager, AWS Route 53를 활용한 SSL 적용, 호스팅
+  - React, Redux, Redux-saga, React hooks, TypeScript, CRACO, Antd UI, styled-components, AWS
 
 - puppeteer를 활용한 네이버 쇼핑 크롤링
 
   - puppeteer를 활용하여 각 검색어에 대한 검색 결과를 크롤링
-  - 이미지를 크롤링하여 RGB 또는 Hex Code로 변환
-  - 각 검색 결과의 네이버 쇼핑 리뷰 크롤링
-  - tsv, csv 파일로 변환
+  - 각 검색어의 정보가 담긴 csv 파일을 Read 후, 검색의 Input 값으로 활용
+  - 각 검색 데이터의 네이버 쇼핑 리뷰 텍스트 크롤링
+  - 각 검색 결과의 이미지를 크롤링하여 RGB 또는 Hex Code로 변환
+  - 해당 데이터를 tsv, csv 파일로 변환
 
-- ELB 트래픽 로그를 활용한 기능 추가
+- AWS를 활용한 개발
 
-  - Lambda로 ELB의 로그를 확인하여 호출된 도메인의 Query param 파싱 후, DB에 적재
-  - 스프링 Scheduler Cron를 활용한 일배치 작업
-
-- AWS Lambda를 활용한 데이터 파싱, S3 적재
-  - AWS Lambda에서 NodeJS 환경으로 S3 파일을 Read한 후 파싱
-  - Eventbridge를 활용하여 Target이 업로드 될 때마다 Target를 파싱
-  - 파싱된 결과를 S3에 csv로 적재
+  - AWS ELB 트래픽 로그를 활용한 기능 추가
+    - AWS Lambda와 Eventbridge를 활용한 매일 정오 배치 작업
+    - 당일 특정 API 도메인의 ELB 로그를 확인하여 호출된 도메인의 Query Param 파싱 후, S3에 적재
+    - 스프링 Scheduler Cron으로 매일 S3에 적재된 파일에 접근하여 고객사별 사용, 미사용 추천 리스트 구분 후 DB 적재 AWS Lambda를 활용한 데이터 파싱, S3 적재
+    - AWS Lambda에서 NodeJS 환경으로 S3 파일을 Read한 후 파싱
+    - Eventbridge를 활용하여 Target이 업로드 될 때마다 Target를 파싱
+    - 파싱된 데이터를 S3에 csv로 적재
+  - 카페 24 Admin API를 활용한 상품 데이터 추출
+    - AWS DynamoDB, Lambda를 활용하여 고객사의 전체 아이템 정보를 가져오는 일배치 개발
+    - 카페 24를 활용하여 쇼핑몰 운영하는 경우 매일 전체 쇼핑 리스트를 제공해주는 API가 존재하지 않음 (limit 최대 100개인 API 존재)
+    - limit 최대 100개인 API를 활용하기 위한 초기 Access Token (Expire time: 2시간), Refresh Token 발행 및 DynamoDB에 저장
+    - 반복문을 활용하여 전체 쇼핑 리스트 가져오기, Call 수를 Over하거나 만료 시간이 지날 경우 DynamoDB에 저장된 Refresh Token으로 Access Token 재발행 후 사용
 
 </details>
 
