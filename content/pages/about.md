@@ -18,7 +18,7 @@ template: 'page'
 
 <br/>
 
-React, JavaScript, TypeScript, AWS, NodeJS, GraphQL, Java, Python, SQL, C++
+React, TypeScript, JavaScript, AWS, GraphQL, NodeJS, Java, Python, SQL, C++
 
 ---
 
@@ -41,7 +41,7 @@ React, JavaScript, TypeScript, AWS, NodeJS, GraphQL, Java, Python, SQL, C++
   - 모바일 웹 형태의 UI 제작
   - indexed DB를 활용하여 Script가 삽입된 타 사이트 페이지의 정보를 기록
   - 페이지의 정보를 토대로 호출할 추천 리스트 API를 선별하는 Trigger 기능 제작
-  - React, Redux, React hooks, TypeScript, SCSS, Atomic Design System
+  - 기술 스택 : React, Redux, React hooks, TypeScript, SCSS, Atomic Design System
 
 - 어드민 웹 리팩토링 및 유지보수
 
@@ -56,7 +56,7 @@ React, JavaScript, TypeScript, AWS, NodeJS, GraphQL, Java, Python, SQL, C++
   - Antd와 Task runner gulp를 활용한 Dark Mode 제작
   - AWS Code Pipeline를 활용한 프론트엔드 CI / CD 구축 및 배포
   - AWS Certificate Manager, AWS Route 53를 활용한 SSL 적용, 호스팅
-  - React, Redux, Redux-saga, React hooks, TypeScript, CRACO, Antd UI, styled-components, AWS
+  - 기술 스택 : React, Redux, Redux-saga, React hooks, TypeScript, CRACO, Antd UI, styled-components, AWS
 
 - puppeteer를 활용한 네이버 쇼핑 크롤링
 
@@ -65,21 +65,43 @@ React, JavaScript, TypeScript, AWS, NodeJS, GraphQL, Java, Python, SQL, C++
   - 각 검색 데이터의 네이버 쇼핑 리뷰 텍스트 크롤링
   - 각 검색 결과의 이미지를 크롤링하여 RGB 또는 Hex Code로 변환
   - 해당 데이터를 tsv, csv 파일로 변환
+  - 기술 스택 : JavaScript, Puppeteer 등
 
-- AWS를 활용한 개발
+- AWS ELB 트래픽 로그를 활용한 기능 추가
 
-  - AWS ELB 트래픽 로그를 활용한 기능 추가
-    - AWS Lambda와 Eventbridge를 활용한 매일 정오 배치 작업
-    - 당일 특정 API 도메인의 ELB 로그를 확인하여 호출된 도메인의 Query Param 파싱 후, S3에 적재
-    - 스프링 Scheduler Cron으로 매일 S3에 적재된 파일에 접근하여 고객사별 사용, 미사용 추천 리스트 구분 후 DB 적재 AWS Lambda를 활용한 데이터 파싱, S3 적재
-    - AWS Lambda에서 NodeJS 환경으로 S3 파일을 Read한 후 파싱
-    - Eventbridge를 활용하여 Target이 업로드 될 때마다 Target를 파싱
-    - 파싱된 데이터를 S3에 csv로 적재
-  - 카페 24 Admin API를 활용한 상품 데이터 추출
-    - AWS DynamoDB, Lambda를 활용하여 고객사의 전체 아이템 정보를 가져오는 일배치 개발
-    - 카페 24를 활용하여 쇼핑몰 운영하는 경우 매일 전체 쇼핑 리스트를 제공해주는 API가 존재하지 않음 (limit 최대 100개인 API 존재)
-    - limit 최대 100개인 API를 활용하기 위한 초기 Access Token (Expire time: 2시간), Refresh Token 발행 및 DynamoDB에 저장
-    - 반복문을 활용하여 전체 쇼핑 리스트 가져오기, Call 수를 Over하거나 만료 시간이 지날 경우 DynamoDB에 저장된 Refresh Token으로 Access Token 재발행 후 사용
+  - AWS Lambda와 Eventbridge를 활용한 매일 정오 배치 작업
+  - 당일 특정 API 도메인의 ELB 로그를 확인하여 호출된 도메인의 Query Param 파싱 후, S3에 적재
+  - 스프링 Scheduler Cron으로 매일 S3에 적재된 파일에 접근하여 고객사별 사용, 미사용 추천 리스트 구분 후 DB 적재 AWS Lambda를 활용한 데이터 파싱, S3 적재
+  - AWS Lambda에서 NodeJS 환경으로 S3 파일을 Read한 후 파싱
+  - Eventbridge를 활용하여 Target이 업로드 될 때마다 Target를 파싱
+  - 파싱된 데이터를 S3에 csv로 적재
+
+- 카페 24 Admin API를 활용한 상품 데이터 추출
+
+  - AWS DynamoDB, Lambda를 활용하여 고객사의 전체 아이템 정보를 가져오는 일배치 개발
+  - 카페 24를 활용하여 쇼핑몰 운영하는 경우 매일 전체 쇼핑 리스트를 제공해주는 API가 존재하지 않음 (limit 최대 100개인 API 존재)
+  - limit 최대 100개인 API를 활용하기 위한 초기 Access Token (Expire time: 2시간), Refresh Token 발행 및 DynamoDB에 저장
+  - 반복문을 활용하여 전체 쇼핑 리스트 가져오기, Call 수를 Over하거나 만료 시간이 지날 경우 DynamoDB에 저장된 Refresh Token으로 Access Token 재발행 후 사용
+
+- 라운지비 프론트엔드 제작
+
+  - 카페 24를 활용하여 쇼핑몰을 운영하는 라운지비라는 고객사의 프론트엔드 일부분을 직접 작성
+  - PC용 페이지 총 11개에 들어갈 Carousel 형태의 View 제작
+  - Auto Scroll, Responsive, Mouse Hover Stop 기능을 가진 Carousel View 제작
+  - fetch API와 DOM API 활용
+  - Vanilla JS로 제작
+  - 기술 스택 : HTML5, JavaScript, CSS3
+
+- 올리브영 어드민 프론트엔드 개발
+
+  - 회사에서 제공하는 데이터 추천 API의 데모 및 성과 분석 리포트를 보여주는 올리브영용 백오피스(어드민)를 개발
+  - 추천 배치 정상 작동 여부 View 개발
+  - 추천 배치 정상 작동 여부 API 개발
+  - 백엔드 서버에서 AWS S3의 presigned url 발행을 요청하여 사용자는 가용 가능한 시간동안 프론트엔드에서 S3 파일 다운 가능
+  - 추천 성과 지표 조회 화면 개발
+  - 추천 & 라이브 스트림 데모 화면 개발
+  - 운영 기능 (AB TEST 설정, 필터링 등) 개발
+  - 기술 스택 : React, Redux, AWS (Lambda, Code Pipeline, S3)
 
 </details>
 
@@ -88,26 +110,33 @@ React, JavaScript, TypeScript, AWS, NodeJS, GraphQL, Java, Python, SQL, C++
 
 - 마이크로 사이트 개발
 
-  - AWS Competency 취득을 위한 마이크로 사이트 개발
+  - 리테일 분야 AWS 활용에 대한 파트너 기업의 전문성을 인증해주는 AWS Retail Competency 취득을 위해 마이크로 사이트 개발
   - 정적 사이트 생성기인 Gatsby(React + GraphQL)로 개발
+  - react-intl를 활용한 번역 기능 개발
+  - AWS S3, CloudFront를 활용한 배포
   - AWS Retail Competency 심사 항목 대상으로 해당 사이트 활용
-  - 관련 기사 : https://www.shinsegaegroupinside.com/44056/
+  - 관련 기사 : https://www.shinsegaegroupinside.com/44056/
+  - 도메인 : https://ssgmsp.com
 
 - Public Cloud 환경에서 Infra 운영
-  - AWS Console 상에서의 네이밍 룰 정의
+
+  - MSP (Mirco Service Provider) 역할을 하는 팀에서 인프라 운영 업무를 맡음
+  - AWS Console 상에서의 보안 그룹, EC2 등 AWS Service 네이밍 룰 정의
   - 고객의 요청에 따라 Security Group Open 및 방화벽 정책 제어
   - AWS 서비스 사용량에 따른 비용 최적화
-  - 기존 고객사의 아키텍처를 바탕으로 AWS 아키텍처 제작
-  - AWS Lambda를 활용한 보안 솔루션 자동설치
-  - AWS EKS HPA 설정 및 Deployment yaml작성 및 배포
+  - 기존 고객사의 아키텍처를 바탕으로 AWS로 인프라를 마이그레이션 했을 때의 AWS 아키텍처 제작
+  - AWS Serverless Function인 Lambda를 활용하여 EC2에 보안 솔루션 자동설치
 
 </details>
 
 <details>
 <summary>2019. 08 ~ 2019. 11 &nbsp &nbsp델리(Dely) / Back-End 개발자 InternShip</summary>
 
-- 공유 배송 플랫폼인 델리에서 Back-End 개발을 진행하였으며, JavaScript로 작성
+- 플랫폼 백엔드에 대한 전반적인 리팩토링과 기능 개발을 수행
+- RDB 설계, Graphql Query, Mutation, Subscription 작성
+- 네이버 클라우드 SENS를 활용하여 인증 메세지 전송 구현
 - AWS, Naver Cloud Platform 등 여러 API를 활용한 경험
+- 기술 스택 : NodeJS, GraphQL, Sequelize, AWS, Naver Cloud Platform
 
 </details>
 
@@ -127,7 +156,9 @@ React, JavaScript, TypeScript, AWS, NodeJS, GraphQL, Java, Python, SQL, C++
 <details>
 <summary>2021. 08 ~ 2021. 10 &nbsp&nbsp빗썸 테크 아카데미 1기 / Front-End 개발자</summary>
 
-- 4주간 빗썸코리아에서 주최하는 웹 프론트엔드 과정을 학습하고 이를 토대로 3주간 프로젝트를 진행하였습니다!
+- 4주간 빗썸코리아에서 주최하는 웹 프론트엔드 과정을 학습하고 이를 토대로 3주간 프로젝트를 진행
+- 코인에 지식이 없는 초보 투자자가 투자 고수들의 포트폴리오를 따라 투자할 수 있는 플랫폼 Clone Coin 개발
+- 기술 스택 : React, JS, Redux, Redux-saga, styled-component, Custom Hooks
 
 </details>
 
@@ -135,9 +166,9 @@ React, JavaScript, TypeScript, AWS, NodeJS, GraphQL, Java, Python, SQL, C++
 
 <summary>2021. 01 ~ 2021. 03 &nbsp&nbspD&D 4기 / Front-End 개발자</summary>
 
-- [쫌싸!](https://zzomssa.com)
 - Front-End 개발자로 참여해 소비자들의 현명한 소비를 위한 서비스 '쫌싸!' 개발
-- React, JS, Context API, Tailwind을 활용하여 반응형으로 PC, Mobile용 사이트 개발
+- 반응형으로 PC, Mobile용 사이트 개발
+- 기술 스택 : React, JS, Context API, Tailwind, AWS
 
 </details>
 
@@ -183,6 +214,11 @@ React, JavaScript, TypeScript, AWS, NodeJS, GraphQL, Java, Python, SQL, C++
 <br/>
 
 2021
+
+- 초보 투자자가 투자 고수들의 포트폴리오를 따라 투자할 수 있는 플랫폼 Clone Coin 제작
+
+  - Project Period : 2021-09 ~ 2021-10
+  - Used Things : React, Redux, Redux-Saga, Antd, Styled-Component, AWS
 
 - 소비자들의 현명한 소비를 위한 서비스 '쫌싸!' 제작
   - Project Period : 2021-01 ~ 2021-03
