@@ -59,7 +59,7 @@ React, TypeScript, JavaScript, AWS, GraphQL, NodeJS, Java, Python, SQL, C++
   - Antd와 Task runner gulp를 활용한 Dark Mode 제작
   - AWS Code Pipeline를 활용한 프론트엔드 CI / CD 구축 및 배포
   - AWS Certificate Manager, AWS Route 53를 활용한 SSL 적용, 호스팅
-  - 기술 스택 : React, Redux, Redux-saga, React hooks, TypeScript, CRACO, Antd UI, styled-components, AWS
+  - 기술 스택 : React, Redux, Redux-saga, React hooks, TypeScript, CRACO, Antd UI, Styled-components, AWS
 
 - puppeteer를 활용한 네이버 쇼핑 크롤링
 
