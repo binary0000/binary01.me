@@ -38,10 +38,13 @@ React, TypeScript, JavaScript, AWS, GraphQL, NodeJS, Java, Python, SQL, C++
 - Embeddable React 개발
 
   - 타 사이트에 Script 방식으로 삽입할 수 있는 봇 형태의 UI 개발
-  - 모바일 웹 형태의 UI 제작
-  - indexed DB를 활용하여 Script가 삽입된 타 사이트 페이지의 정보를 기록
+  - User Agent를 활용한 PC, MO UI 제작
+  - 고객사의 Sub Domain이 다를 경우에도 Indexed DB에 저장된 내용을 공유하기 위해 iframe으로 특정 도메인을 가진 페이지 삽입
+  - iframe으로 삽입된 페이지에서 Indexed DB를 활용하여 Script가 삽입된 타 사이트 페이지의 정보를 기록
+  - Message Channel API를 활용한 Embeddable React와 iframe간의 통신 구현
   - 페이지의 정보를 토대로 호출할 추천 리스트 API를 선별하는 Trigger 기능 제작
-  - 기술 스택 : React, Redux, React hooks, TypeScript, SCSS, Atomic Design System
+  - AWS Code Pipeline를 활용한 프론트엔드 CI / CD 구축 및 배포
+  - 기술 스택 : React, Redux, React hooks, TypeScript, Mono Repo (Lerna, yarn Workspace), SCSS, Atomic Design System
 
 - 어드민 웹 리팩토링 및 유지보수
 
