@@ -153,12 +153,26 @@ React, TypeScript, JavaScript, AWS, GraphQL, NodeJS, Java, Python, SQL, C++
 
 <br/>
 
+<!-- 프론트엔드 개발을 위한 자바스크립트 (feat. VanillaJS)
+ -->
+ <details>
+<summary>2022. 01 ~ 2022. 02 &nbsp&nbsp프론트엔드 개발을 위한 자바스크립트 (feat. VanillaJS) / Front-End 개발자</summary>
+
+- 프로그래머스에서 진행하는 JavaScript 스터디
+- 매주 미션을 진행하며 멘토분들께 코드 리뷰를 받음
+- Vanilla JS로만 미션을 진행하여 JS에 대한 기본기 강화
+- 기술 스택 : JS
+- 관련 링크 : [Link](https://programmers.co.kr/learn/courses/13545)
+
+</details>
+
 <details>
 <summary>2021. 08 ~ 2021. 10 &nbsp&nbsp빗썸 테크 아카데미 1기 / Front-End 개발자</summary>
 
 - 4주간 빗썸코리아에서 주최하는 웹 프론트엔드 과정을 학습하고 이를 토대로 3주간 프로젝트를 진행
 - 코인에 지식이 없는 초보 투자자가 투자 고수들의 포트폴리오를 따라 투자할 수 있는 플랫폼 Clone Coin 개발
 - 기술 스택 : React, JS, Redux, Redux-saga, styled-component, Custom Hooks
+- 관련 링크 : [Link](https://docs.google.com/presentation/d/1snmurKuTz5yTYzdyzOJS9oceM7djMcEkXLpThUHcKeg/edit?usp=sharing)
 
 </details>
 
@@ -169,6 +183,7 @@ React, TypeScript, JavaScript, AWS, GraphQL, NodeJS, Java, Python, SQL, C++
 - Front-End 개발자로 참여해 소비자들의 현명한 소비를 위한 서비스 '쫌싸!' 개발
 - 반응형으로 PC, Mobile용 사이트 개발
 - 기술 스택 : React, JS, Context API, Tailwind, AWS
+- 관련 링크 : [Link](https://dnd.ac/project/10)
 
 </details>
 
