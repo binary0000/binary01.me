@@ -44,7 +44,7 @@ NextJS, ReactJS, TypeScript, JavaScript, AWS, GraphQL, NodeJS
 - 앱 자주 묻는 질문 개발
 - 이벤트 페이지 다수 개발
 
-* 기술 스택 : NestJS, Redux, RTK-Query, Redux-saga, Tailwind CSS, TypeScript, Styled-components, AWS
+* 기술 스택 : NextJS, Redux, RTK-Query, Redux-saga, Tailwind CSS, TypeScript, Styled-components, AWS
 
 </details>
 
