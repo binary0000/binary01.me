@@ -18,7 +18,7 @@ template: 'page'
 
 <br/>
 
-React, TypeScript, JavaScript, AWS, GraphQL, NodeJS, Java, Python, SQL, C++
+NextJS, ReactJS, TypeScript, JavaScript, AWS, GraphQL, NodeJS
 
 ---
 
@@ -29,6 +29,23 @@ React, TypeScript, JavaScript, AWS, GraphQL, NodeJS, Java, Python, SQL, C++
 <details>
 
 <summary>2022. 03 ~ &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp핀다 / Front-End 개발자</summary>
+
+- 예적금 비교 프로덕트 개발
+- 신용점수, 신용정보, 신용점수 올리기 프로덕트 개발
+- 모노 레포 Git Flow 작성 및 모노 레포 세팅
+- 마이데이터 알고하는 동의 개발
+- DSR 계산기, 여윳돈 계산기 개발
+- 금융인증서 연동
+- 연말정산 계산기 (3종), 금융 계산기 (5종) 레거시 이관 및 리팩토링
+- 안드로이드, iOS와 WEB 간 인터페이스 다수 추가
+- 앱 알림탭 리팩토링
+- 중도 상환 안내페이지 개발
+- Web ALB 세팅
+- 앱 자주 묻는 질문 개발
+- 이벤트 페이지 다수 개발
+
+* 기술 스택 : NestJS, Redux, RTK-Query, Redux-saga, Tailwind CSS, TypeScript, Styled-components, AWS
+
 </details>
 
 <details>
@@ -210,6 +227,7 @@ React, TypeScript, JavaScript, AWS, GraphQL, NodeJS, Java, Python, SQL, C++
 
 ---
 
+<!--
 ## Papers
 
 <br/>
@@ -225,8 +243,7 @@ React, TypeScript, JavaScript, AWS, GraphQL, NodeJS, Java, Python, SQL, C++
 
 <!--금고(o), lora1(한국정보)(o),lora2(국제),lora3(scopus),종설(1(국내),2(국제))  -->
 
----
-
+<!--
 ## Projects
 
 <br/>
@@ -318,4 +335,4 @@ React, TypeScript, JavaScript, AWS, GraphQL, NodeJS, Java, Python, SQL, C++
   - Project Period : 2018-06 ~ 2018-06
   - Used Things : Java, Swing
 
-</details>
+</details> -->
