@@ -4,6 +4,7 @@
 
 .contacts {
   @include margin-bottom(1);
+  @include margin-top(1);
 
   &__list {
     display: flex;
